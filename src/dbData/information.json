@@ -1,0 +1,606 @@
+{
+    "data":[
+        {
+            "id":1,
+            "name": "Bar - Comedor - Restaurante",
+            "image": "https://res.cloudinary.com/dhu3uii7o/image/upload/v1705427029/RUBROS/BAR%2C%20COMEDOR%2C%20RESTAURANTE.jpg",
+            "statement": "Lo más importante de un establecimiento elaborador es observar la cocina, las condiciones de higiene y sistemas de ventilación",
+            "form": [
+                {
+                    "pregunta": "1. Certificado de fumigación del establecimiento al día", 
+                    "respuestas":["SI", "NO"],
+                    "observacion":null
+                },
+                {
+                    "pregunta": "2. ¿Todos manipuladores poseen carnet de manipulación de alimentos (cocineros, bacheros, mozos, etc)?", 
+                    "respuestas":["SI", "NO"], 
+                    "observacion": "CANTIDAD DE IDENTIFICADORES VIGENTES"
+                },
+                {
+                    "pregunta":"3. ¿Todos manipuladores que elabran la comida tienen la vestimenta adecuada (delantal/chaqueta, gorra/cofia, pantalón largo) y el cabello recogido en caso de tener el cabello largo?",
+                    "respuestas":["SI", "NO"],
+                    "observacion": null
+                },
+                {
+                    "pregunta":"4. Observar si hay condiciones adecuadas de orden e higiene. ",
+                    "respuestas":null,
+                    "observacion": "Ingrese las observaciones correspondientes:"
+                },
+                {
+                    "pregunta":"5. Los utensilios y demás elementos de cocina (ollas, sartenes, licuadoras, procesadoras, tuppers, asaderas) son aptos y se encuentran en condiciones higiénicas adecuadas?",
+                    "respuestas":["SI", "NO"],
+                    "observacion": null
+                },
+                {
+                    "pregunta":"6. ¿Los elementos de cocina (hornos, freidoras, etc.). son aptos y se encuentran en condiciones higiénicas adecuadas?",
+                    "respuestas":["SI", "NO"],
+                    "observacion": null
+                },
+                {
+                    "pregunta":"7. ¿Posee bachas para lavado de alimentos y otra para lavado de manos y utensilios?",
+                    "respuestas":["SI", "NO"],
+                    "observacion": null
+                },
+                {
+                    "pregunta":"8. ¿Posee mesadas de acero inoxidable?",
+                    "respuestas":["SI", "NO"],
+                    "observacion": "Observaciones:"
+                },
+                {
+                    "pregunta":"9. ¿Poseen tachos de basura con bolsa, pedal y tapa?",
+                    "respuestas":["SI", "NO"],
+                    "observacion": null
+                },
+                {
+                    "pregunta":"10. Registro de la temperatura de las heladeras:",
+                    "respuestas":["RANGO DE 4 °C - 8 °C", "POR ENCIMA DE 8 °C"],
+                    "observacion": null
+                },
+                {
+                    "pregunta":"11. Orden y condiciones de la heladera:\n1) Observar que la producción esté contenida en envases aptos y rotulados.\n2) Productos crudos y cocidos deben estar separados\n3) Los productos cárnicos deben estar contenidos en recipientes adecuados para evitar derrames de líquidos sobre otros alimentos\n5) Control de fechas de vencimiento y registros de los productos, que no haya latas abiertas ni utensilios dentro de la heladera, etc.",
+                    "respuestas":["CONDICIONES APTAS", "CONDICIONES NO APTAS"],
+                    "observacion": null
+                },
+                {
+                    "pregunta":"12. Orden y condiciones de los frezzers:\n1) Observar que el frezzer mantenga el material revestible apto e higiénico, los productos se encuentren embolsados y rotulados \n2) Verificar la procedencia de los productos cárnicos \n3) Sellos de habilitación de SENASA (los distintos tipos de carnes vaca, cabrito, chancho, pescados, pollos deben estar separados). ",
+                    "respuestas":["CONDICIONES APTAS", "CONDICIONES NO APTAS"],
+                    "observacion": null
+                },
+                {
+                    "pregunta":"13. En caso de poseer cámara de frío verificar temperatura de la misma:",
+                    "respuestas": null,
+                    "observacion": "Ingrese la temperatura en ºC:"
+                },
+                {
+                    "pregunta":"14. Orden y condiciones de almacenamiento de los productos en la cámara:\n1) Observar si la mercadería se encuentra almacenada en condiciones adecuadas, si no se encuentran en el piso, observar fechas de vencimiento, procedencia y registros RNE/RNPA.",
+                    "respuestas":["CONDICIONES APTAS", "CONDICIONES NO APTAS"],
+                    "observacion":  null
+                },
+                {
+                    "pregunta":"15. Almacenamiento de mercadería, fechas de vencimiento y registros: \n1) Observar si la mercadería se encuentra almacenada en condiciones adecuadas, si no se encuentran en el piso, observar fechas de vencimiento, procedencia y registros RNE/RNPA.",
+                    "respuestas":["CONDICIONES APTAS", "CONDICIONES NO APTAS"],
+                    "observacion": null
+                },
+                {
+                    "pregunta":"16. Observar la presencia de roedores, insectos o moscas en la zona de depósitos cocina, baño y salón",
+                    "respuestas":["CONDICIONES APTAS", "CONDICIONES NO APTAS"],
+                    "observacion": null
+                },
+                {
+                    "pregunta":"17. Verificar las condiciones de lavado de utensilios: \n1) Observar si se realiza con agua potable y corriente, si se desinfectan, si los utensilios se secan en parrillas o se colocan en las mesadas.",
+                    "respuestas":["CONDICIONES APTAS", "CONDICIONES NO APTAS"],
+                    "observacion": null
+                },
+                {
+                    "pregunta":"18. Observar si los mozos fajinan la vajilla",
+                    "respuestas":["SI", "NO"],
+                    "observacion": null
+                },
+                {
+                    "pregunta":"19. Observar por unos minutos a los manipuladores de alimentos ¿se lavan las manos adecuadamente?",
+                    "respuestas":["SI", "NO"],
+                    "observacion": null
+                },
+                {
+                    "pregunta":"20. Observar las condiciones higiénicas del baño de los comensales y el de los trabajadores.",
+                    "respuestas":["CONDICIONES APTAS", "CONDICIONES NO APTAS"],
+                    "observacion": null
+                }
+            ]
+          },
+          {
+            "id":2,
+            "name": "Comercio - Kiosco - Drugstore - Vinoteca",
+            "image": "https://res.cloudinary.com/dhu3uii7o/image/upload/v1705427407/RUBROS/COMERCIO%2C%20KIOSCO%2C%20DRUGSTORE%2C%20VINOTECA.png",
+            "statement": "Como en estos establecimientos comerciales los manipuladores tienen un contacto de forma indirecta con los alimentos, se debe observar principalmente la forma de conservación, orden, limpieza y control de registros de los productos.",
+            "form":[
+                {
+                    "pregunta":"1. Certificado de fumigación del establecimiento al día",
+                    "respuestas":["SI", "NO"],
+                    "observacion": null
+                },
+                {
+                    "pregunta":"2. ¿Todos manipuladores poseen carnet de manipulación de alimentos?",
+                    "respuestas":["SI", "NO"],
+                    "observacion": "Cantidad de identificaciones vigentes:"
+                },
+                {
+                    "pregunta":"3. Controlar fechas de vencimientos y registros de los productos alimenticios:",
+                    "respuestas":["CONTROL CUMPLIDO", "CONTROL INCUMPLIDO"],
+                    "observacion": "Observaciones:"
+                },
+                {
+                    "pregunta":"4. Registro de la temperatura de las heladeras:",
+                    "respuestas":["RANGO DE 4 °C - 8 °C", "POR ENCIMA DE 8 °C"],
+                    "observacion": null
+                },
+                {
+                    "pregunta":"5. Observar las fechas de vencimiento, registro y almacenamiento de fiambres y si están en condiciones adecuadas:",
+                    "respuestas":["CUMPLE", "NO CUMPLE"],
+                    "observacion": "Observaciones:"
+                },
+                {
+                    "pregunta":"6. Observar el almacenamiento de huevos es adecuado (en un lugar fresco y oscuro):",
+                    "respuestas":["CUMPLE", "NO CUMPLE"],
+                    "observacion": null
+                },
+                {
+                    "pregunta":"7. Observar que no existan latas de conservas abolladas o envases fisurados:",
+                    "respuestas":["CUMPLE", "NO CUMPLE"],
+                    "observacion": null
+                },
+                {
+                    "pregunta":"8. Observar la estiba de los alimentos (que no estén directamente en el suelo, que estén separados de los productos químicos y de los de limpieza)",
+                    "respuestas":["CUMPLE", "NO CUMPLE"],
+                    "observacion": null
+                },
+                {
+                    "pregunta":"9. Observar el orden, limpieza y condiciones de almacenamientos de los productos para evitar la probabilidad de que existan plagas en el establecimiento",
+                    "respuestas":["CUMPLE", "NO CUMPLE"],
+                    "observacion": null
+                },
+                {
+                    "pregunta":"10. Poseen bacha para el lavado de manos:",
+                    "respuestas":["SI", "NO"],
+                    "observacion": null
+                },
+                {
+                    "pregunta":"11- Observar las condiciones higiénicas del baño de los trabajadores",
+                    "respuestas":["CONDICIONES APTAS", "CONDICIONES NO APTAS"],
+                    "observacion": null
+                },
+                {
+                    "pregunta":"12.Observar que no haya productos que necesiten refrigeración fuera de las heladeras.",
+                    "respuestas":["CUMPLE", "NO CUMPLE"],
+                    "observacion": null
+                }
+            ]
+          },
+          {
+            "id":3,
+            "name": "Carnicería - Pollería - Pescadería",
+            "image": "https://res.cloudinary.com/dhu3uii7o/image/upload/v1705427580/RUBROS/CARNICERIA%2C%20POLLERIA%2C%20PESCADERIA.jpg",
+            "statement": "Lo más importante en estos establecimientos es la procedencia de los productos, la forma de conservarlos y manipularlos.",
+            "form":[
+                {
+                    "pregunta":"1. Certificado de fumigación del establecimiento al día",
+                    "respuestas":["SI", "NO"],
+                    "observacion": null
+                },
+                {
+                    "pregunta":"2. ¿Todos manipuladores poseen carnet de manipulación de alimentos ?",
+                    "respuestas":["SI", "NO"],
+                    "observacion": "Cantidad de identificaciones vigentes:"
+                },
+                {
+                    "pregunta":"3. ¿Todos manipuladores que elabran la comida tienen la vestimenta adecuada (delantal/chaqueta, gorra/cofia, pantalón largo) y el cabello recogido en caso de tener el cabello largo?",
+                    "respuestas":["SI", "NO"],
+                    "observacion": null
+                },
+                {
+                    "pregunta":"4. Solicitar la procedencia sellos de SENASA de los productos cárnicos (Ganado Vacuno, Porcino, Caprino, etc.):",
+                    "respuestas":["CUMPLE", "NO CUMPLE", "NO EXPENDEN CARNE"],
+                    "observacion": null
+                },
+                {
+                    "pregunta":"5. Solicitar la procedencia de los pollos faenados en el día:",
+                    "respuestas":["CUMPLE", "NO CUMPLE", "NO EXPENDEN POLLOS FANEADOS EN EL DÍA"],
+                    "observacion": null
+                },
+                {
+                    "pregunta":"6. Observar las fechas de vencimientos y registros de los pollos congelados",
+                    "respuestas":["CUMPLE", "NO CUMPLE", "NO EXPENDEN POLLOS"],
+                    "observacion": null
+                },
+                {
+                    "pregunta":"7. Observar las fechas de vencimientos y registros de los productos de mar (pescados, moluscos y crustáceos):",
+                    "respuestas":["CUMPLE", "NO CUMPLE", "NO EXPENDEN PRODUCTOS DE MAR"],
+                    "observacion": null
+                },
+                {
+                    "pregunta":"8. Registro de temperaturas de heladeras mostrador",
+                    "respuestas":["RANGO DE 4 °C - 8 °C", "POR ENCIMA DE 8 °C"],
+                    "observacion": null
+                },
+                {
+                    "pregunta":"9. Observar que no estén en la misma heladera mostrador distintos productos y subproductos de carne, pescados y pollos:",
+                    "respuestas":["CUMPLE", "NO CUMPLE"],
+                    "observacion": "Observaciones:"
+                },
+                {
+                    "pregunta":"10. Observar que las heladeras exhibidoras no posean iluminación con luz violeta, rosa:",
+                    "respuestas":["CUMPLE", "NO CUMPLE"],
+                    "observacion": null
+                },
+                {
+                    "pregunta":"11. Observar que no tengan carne picada expuestas o hamburguesas de elaboración propias exhibidas en las heladeras mostrador.",
+                    "respuestas":["CUMPLE", "NO CUMPLE"],
+                    "observacion": null
+                },
+                {
+                    "pregunta":"12. Observar que frezzer no tengan distintos productos y subproductos cárnicos mezclados:",
+                    "respuestas":["CUMPLE", "NO CUMPLE"],
+                    "observacion": null
+                },
+                {
+                    "pregunta":"13. Observar que si se elabora chorizos u otros chacinados sea bajo las condiciones adecuadas:",
+                    "respuestas":["CUMPLE", "NO CUMPLE"],
+                    "observacion": null
+                },
+                {
+                    "pregunta":"14. En caso de poserr cámara de frio registrar temperatura",
+                    "respuestas": null,
+                    "observacion": "Ingrese la temperatura en ºC:"
+                },
+                {
+                    "pregunta":"15. Orden y condiciones de almacenamiento de los productos en la cámara:\n1) Cortes de carnes colgados, embolsados y rotulados\n2) Que no haya carne picada\n3) Que no haya carne en envases no aptos\n4) Que no se encuentren en el suelo\n 5)Que no se almacene otros tipos de alimento como verduras o preparados para milanesas",
+                    "respuestas":["CONDICIONES APTAS", "CONDICIONES NO APTAS"],
+                    "observacion": null
+                },
+                {
+                    "pregunta":"16. Preparacón de milanesas o subproductos en condiciones adecuadas",
+                    "respuestas":["CONDICIONES APTAS", "CONDICIONES NO APTAS"],
+                    "observacion": null
+                },
+                {
+                    "pregunta":"17. Observar la higiene de las maquinas (ej.: las picadoras de carne, sierras, etc.)",
+                    "respuestas":["CONDICIONES APTAS", "CONDICIONES NO APTAS"],
+                    "observacion": null
+                },
+                {
+                    "pregunta":"18. Posee bachas para lavado de alimentos y otra para lavado de manos y utensilios",
+                    "respuestas":["SI", "NO"],
+                    "observacion": null
+                },
+                {
+                    "pregunta":"19. ¿Posee mesadas de acero inoxidable?",
+                    "respuestas":["SI", "NO"],
+                    "observacion": "Observaciones:"
+                },
+                {
+                    "pregunta":"20. ¿Poseen tachos de basura con bolsa, pedal y tapa?",
+                    "respuestas":["SI", "NO"],
+                    "observacion": null
+                },
+                {
+                    "pregunta":"21. Observar por unos minutos a los manipuladores de alimentos ¿se lavan las manos adecuadamente?",
+                    "respuestas":["SI", "NO"],
+                    "observacion": null
+                },
+                {
+                    "pregunta":"22. Observar las condiciones higiénicas del baño el de los trabajadores.",
+                    "respuestas":["CONDICIONES APTAS", "CONDICIONES NO APTAS"],
+                    "observacion": null
+                }
+            ]
+          },
+          {
+            "id":4,
+            "name": "Verdulería",
+            "image": "https://res.cloudinary.com/dhu3uii7o/image/upload/v1705427654/RUBROS/VERDULERIA.jpg",
+            "statement": "Es importante observar el almacenamiento y estiba de frutas y verduras.",
+            "form":[
+                {
+                    "pregunta": "1. Certificado de fumigación del establecimiento al día",
+                    "respuestas":["SI", "NO"],
+                    "observacion": null
+                },
+                {
+                    "pregunta": "2. ¿Todos manipuladores poseen carnet de manipulación de alimentos ?",
+                    "respuestas":["SI", "NO"],
+                    "observacion": "Cantidad de identificaciones vigentes:"
+                },
+                {
+                    "pregunta": "3. Observar que las frutas y verduras se encuentren almacenadas en condiciones adecuadas (no estén en el suelo ni en depósitos con pisos de tierra o donde se almacena maquinas o chatarras)",
+                    "respuestas":["CUMPLE", "NO CUMPLE"],
+                    "observacion": null
+                },
+                {
+                    "pregunta": "4. Observar que los cajones de exposición solo contengan verduras o frutas y no contengan otro tipo de productos por ejemplo botellas",
+                    "respuestas":["CUMPLE", "NO CUMPLE"],
+                    "observacion": null
+                },
+                {
+                    "pregunta": "5. Conocer la procedencia de las frutas y verduras",
+                    "respuestas":null,
+                    "observacion": "Observaciones:"
+                },
+                {
+                    "pregunta": "6. Observar el orden y limpieza del espacio de venta",
+                    "respuestas":["CUMPLE", "NO CUMPLE"],
+                    "observacion": null
+                },
+                {
+                    "pregunta": "7. Observar si la exposición de los productos es adecuada (observar la higiene, si se expenden en un establecimiento o al aire libre)",
+                    "respuestas":["CUMPLE", "NO CUMPLE"],
+                    "observacion": null
+                },
+                { 
+                    "pregunta": "8. Observar si realiza la correcta separación y disposición de desechos (frutas y verduras en mal estado o podridas)",
+                    "respuestas":["CUMPLE", "NO CUMPLE"],
+                    "observacion": null
+                },
+                {
+                    "pregunta": "9. Posee bachas para lavado de alimentos y otra para lavado de manos y utensilios",
+                    "respuestas":["SI", "NO"],
+                    "observacion": null
+                },
+                {
+                    "pregunta": "10. Observar por unos minutos a los manipuladores de alimentos ¿se lavan las manos adecuadamente?",
+                    "respuestas":["SI", "NO"],
+                    "observacion": null
+                },
+                {
+                    "pregunta": "11. Observar que no tengan carne picada expuestas o hamburguesas de elaboración propias exhibidas en las heladeras mostrador.",
+                    "respuestas":["CONDICIONES APTAS", "CONDICIONES NO APTAS"],
+                    "observacion": null
+                }
+            ]
+          },
+          {
+            "id":5,
+            "name": "Panadería",
+            "image": "https://res.cloudinary.com/dhu3uii7o/image/upload/v1705427795/RUBROS/Panaderia.jpg",
+            "statement": "Lo más importante es observar las condiciones de elaboración, conservación de los productos y la procedencia de la materia prima.",
+            "form":[
+                {
+                    "pregunta": "1. Certificado de fumigación del establecimiento al día",
+                    "respuestas":["SI", "NO"],
+                    "observacion": null
+                },
+                {
+                    "pregunta": "2. ¿Todos manipuladores poseen carnet de manipulación de alimentos ?",
+                    "respuestas":["SI", "NO"],
+                    "observacion": "Cantidad de identificaciones vigentes:"
+                },
+                {
+                    "pregunta": "3. Los manipuladores que elaboran la comida tienen la vestimenta adecuada (delantal/chaqueta, gorra/cofia, pantalón largo)",
+                    "respuestas":["SI", "NO"],
+                    "observacion": null
+                },
+                {
+                    "pregunta": "4. Observar los registros, fechas de vencimientos de harinas, materias primas e insumos",
+                    "respuestas":["POSEE LOS REGISTROS NECESARIOS", "NO LOS POSEE"],
+                    "observacion": null
+                },
+                {
+                    "pregunta": "5. Observar si hay detectar el uso de bromatos (prohibido)",
+                    "respuestas":["CUMPLE", "NO CUMPLE"],
+                    "observacion": null
+                },
+                {
+                    "pregunta": "6. Observar que la estiba de harinas, materia prima e insumos sea adecuada",
+                    "respuestas":["CUMPLE", "NO CUMPLE"],
+                    "observacion": null
+                },
+                {
+                    "pregunta": "7. Registro de la temperatura de las heladeras",
+                    "respuestas":["RANGO DE 4 °C - 8 °C", "POR ENCIMA DE 8 °C"],
+                    "observacion": null
+                },
+                {
+                    "pregunta": "8. Observar la higiene de las maquinas, hornos, amasadoras, cortadoras",
+                    "respuestas":["CUMPLE", "NO CUMPLE"],
+                    "observacion": null
+                },
+                {
+                    "pregunta": "9. Observar si los utensilios y demás elementos de cocina (ollas, sartenes, batidoras, procesadoras, tuppers, asaderas) son aptos y se encuentran en condiciones higiénicas adecuadas",
+                    "respuestas":["CUMPLE", "NO CUMPLE"],
+                    "observacion": null
+                },
+                {
+                    "pregunta": "10. ¿Posee bachas para lavado de alimentos y otra para lavado de manos y utensilios?",
+                    "respuestas":["SI", "NO"],
+                    "observacion": null
+                },
+                {
+                    "pregunta": "11. ¿Posee mesadas de acero inoxidable?",
+                    "respuestas":["SI", "NO"],
+                    "observacion": "Observaciones:"
+                },
+                {
+                    "pregunta": "12. Poseen tachos de basura con bolsa pedal y tapa:",
+                    "respuestas":["SI", "NO"],
+                    "observacion": null
+                },
+                {
+                    "pregunta": "13. Observar por unos minutos a los manipuladores de alimentos ¿se lavan las manos adecuadamente?",
+                    "respuestas":["SI", "NO"],
+                    "observacion": null
+                },
+                {
+                    "pregunta": "14. Observar las condiciones higiénicas del baño de los comensales y el de los trabajadores.",
+                    "respuestas":["CONDICIONES APTAS", "CONDICIONES NO APTAS"],
+                    "observacion": null
+                }
+            ]
+          },
+          {
+            "id":6,
+            "name": "Vendedores Ambulantes",
+            "image": "https://res.cloudinary.com/dhu3uii7o/image/upload/v1705427856/RUBROS/VENDEDORES%20AMBULANTES.png",
+            "statement": null,
+            "form":[
+                {
+                    "pregunta": "1. ¿Todos manipuladores poseen carnet de manipulación de alimentos ?",
+                    "respuestas": ["SI", "NO"],
+                    "observacion": "Cantidad de identificaciones vigentes:"
+                },
+                {
+                    "pregunta": "2. Observar la higiene del lugar asignado",
+                    "respuestas": ["CONDICIONES APTAS", "CONDICIONES NO APTAS"],
+                    "observacion": null
+                },
+                {
+                    "pregunta": "3. Los alimentos se encuentran transportados en condiciones adecuadas (conservadoras, tuppers, bolsas)",
+                    "respuestas": ["SI", "NO"],
+                    "observacion": null
+                },
+                {
+                    "pregunta": "4. Observar los registros y fechas de vencimientos de los productos",
+                    "respuestas": ["CONDICIONES APTAS", "CONDICIONES NO APTAS"],
+                    "observacion": null
+                },
+                {
+                    "pregunta": "5. los manipuladores que elaboran la comida tienen la vestimenta adecuada (delantal/chaqueta, gorra/cofia, pantalón largo):",
+                    "respuestas": ["SI", "NO"],
+                    "observacion": null
+                },
+                {
+                    "pregunta": "6. Poseen dispenser con agua potable para lavado de manos",
+                    "respuestas": ["SI", "NO"],
+                    "observacion": null
+                },
+                {
+                    "pregunta": "7. ¿Tienen aderezos se encuentran en una conservadora con hielo?",
+                    "respuestas": ["SI", "NO", "NO TIENEN ADEREZOS"],
+                    "observacion": null
+                },
+                {
+                    "pregunta": "8. Si trabajan con huevo, ¿se encuentran lejos de las planchas de calor?",
+                    "respuestas": ["SI", "NO", "NO TRABAJAN CON HUEVOS"],
+                    "observacion": null
+                },
+                {
+                    "pregunta": "9. Trabajan con utensilios y pinzas adecuadas",
+                    "respuestas": ["SI", "NO"],
+                    "observacion": null
+                },
+                {
+                    "pregunta": "10. Hay una persona para cobrar y otra que elabora los alimentos",
+                    "respuestas": ["SI", "NO"],
+                    "observacion": "Otras observaciones:"
+                }
+            ]
+          },
+          {
+            "id":7,
+            "name": "Inspección de Habilitación",
+            "image": "https://res.cloudinary.com/dhu3uii7o/image/upload/v1705428020/RUBROS/INSPECCION%20DE%20HABILITACION.jpg",
+            "statement": "Detallar las condiciones del nuevo establecimiento a habilitar teniendo en cuenta las siguientes observaciones:",
+            "form":[
+                {
+                    "pregunta": "1. Controlar las condiciones edilicias (si las paredes están pintadas con pintura lavable, el sistema de ventilación, las condiciones de los baños)",
+                    "respuestas": null,
+                    "observacion": null
+                },
+                {
+                    "pregunta": "2. Controlar el equipamiento (observando que sean aptos para manipular alimentos; ej.: las mesadas de acero inoxidable).",
+                    "respuestas": null,
+                    "observacion": null
+                },
+                {
+                    "pregunta": "3. Observar que el mobiliario y equipamiento sea el mínimo e indispensable para realizar el trabajo (ej.: que tengan heladeras si necesitan conservar alimentos, que tengan bachas para el lavado de manos, que tengan las mesadas necesarias para manipular alimentos, etc.).",
+                    "respuestas": null,
+                    "observacion": null
+                },
+                {
+                    "pregunta": "4. Solicitar carnet de manipulación de alimentos",
+                    "respuestas": ["SI", "NO"],
+                    "observacion": "5. Observaciones:"
+                }
+            ]
+          },
+          {
+            "id":8,
+            "name": "Vehículos transportadores de alimentos",
+            "image": "https://res.cloudinary.com/dhu3uii7o/image/upload/v1705428189/RUBROS/VEHICULOS%20TRANSPORTADORES%20DE%20ALIMENTOS.jpg",
+            "statement": "Detallar las condiciones del nuevo establecimiento a habilitar teniendo en cuenta las siguientes observaciones:",
+            "form":[
+                {
+                    "pregunta": "1. ¿Todos manipuladores poseen carnet de manipulación de alimentos ?",
+                    "respuestas": ["SI", "NO"],
+                    "observacion": "Cantidad de identificaciones vigentes:"
+                },
+                {
+                    "pregunta": "2. Transportan alimentos de manera adecuada",
+                    "respuestas": ["SI", "NO"],
+                    "observacion": null
+                },
+                {
+                    "pregunta": "3. Poseen las boletas y registros de los productos transportados",
+                    "respuestas": ["SI", "NO"],
+                    "observacion": null
+                },
+                {
+                    "pregunta": "4. Son transportados con productos químicos y/o de limpieza",
+                    "respuestas": ["SI", "NO"],
+                    "observacion": "Observaciones:"
+                }
+            ]
+          },
+          {
+            "id":9,
+            "name": "Vehículos transportadores de alimentos con cámaras de frío",
+            "image": "https://res.cloudinary.com/dhu3uii7o/image/upload/v1705428475/RUBROS/VEHICULOS%20CAMARA%20DE%20FRIO.jpg",
+            "statement": "Detallar las condiciones del nuevo establecimiento a habilitar teniendo en cuenta las siguientes observaciones:",
+            "form":[
+                {
+                    "pregunta": "1. ¿Todos manipuladores poseen carnet de manipulación de alimentos ?",
+                    "respuestas": ["SI", "NO"],
+                    "observacion": "Cantidad de identificaciones vigentes:"
+                },
+                {
+                    "pregunta": "2. ¿Transportan alimentos de manera adecuada?",
+                    "respuestas": ["SI", "NO"],
+                    "observacion": null
+                },
+                {
+                    "pregunta": "3. Registrar temperatura de la cámara de frío",
+                    "respuestas": null,
+                    "observacion": "Ingrese la temperatura en ºC:"
+                },
+                {
+                    "pregunta": "4. Poseen las boletas y registros de los productos transportados",
+                    "respuestas": ["SI", "NO"],
+                    "observacion": null
+                },
+                {
+                    "pregunta": "5. Los transportadores de carne poseen el uniforme correcto",
+                    "respuestas": ["SI", "NO"],
+                    "observacion": "Otras observaciones:"
+                }
+            ]
+          },
+          {
+            "id":10,
+            "name": "Fábrica de alimentos",
+            "image": "https://res.cloudinary.com/dhu3uii7o/image/upload/v1705428546/RUBROS/FABRICA%20DE%20ALIMENTOS.jpg",
+            "statement": "Solicitar los checklist según el tipo de alimento o producto que elaboren.",
+            "form":[
+                {
+                    "pregunta": "Este control se llevó a cabo conforme a lo establecido por art. 14 de la ley 18.284 y por lo estipulado en el Código Alimentario Argentino.",
+                    "respuestas": null,
+                    "observacion": null
+                }
+            ]
+          },
+          {
+            "id":11,
+            "name": "Supermercado",
+            "image": "https://res.cloudinary.com/dhu3uii7o/image/upload/v1706839579/RUBROS/SUPERMERCADO.jpg",
+            "statement": null,
+            "form": null
+          }
+    ]
+}
