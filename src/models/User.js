@@ -1,5 +1,4 @@
 const { DataTypes } = require("sequelize");
-const bcrypt = require("bcrypt");
 
 module.exports = (sequelize) => {
     sequelize.define("user", {
@@ -14,29 +13,13 @@ module.exports = (sequelize) => {
             allowNull:false,
             unique: true,
             validate: {
-                len: [6, 20], //6 a 20 caracteres
+                len: [6, 20],
             },
         },
 
         password: {
             type: DataTypes.STRING,
             allowNull: false,
-            validate: {
-                isStrongPassword(value) {
-                    // Aplicar validación solo si la contraseña no ha sido establecida previamente
-                    if (!this.getDataValue('password') && !/(?=.*[A-Z])(?=.*\d)/.test(value)) {
-                        throw new Error('La contraseña debe contener al menos una letra mayúscula y un número.');
-                    }
-                },
-                len: [6, 20], // longitud
-            },
-            set(value) {
-                // Hashear la contraseña solo si es un valor nuevo o actualizado
-                if (value && value !== this.getDataValue('password')) {
-                    const hashedPassword = bcrypt.hashSync(value, 10);
-                    this.setDataValue('password', hashedPassword);
-                }
-            },
         },
 
         email: {
@@ -47,6 +30,16 @@ module.exports = (sequelize) => {
                 isEmail: true,
             },
         },
+        
+        rol: {
+            type: DataTypes.STRING,
+            defaultValue: 'client',
+            validate: {
+              isIn: {
+                args: [['admin', 'client']],
+              }
+            }
+          },  
 
         name: {
             type: DataTypes.STRING,
@@ -67,5 +60,9 @@ module.exports = (sequelize) => {
             type: DataTypes.STRING,
             allowNull:true,
         },
-    });
+    },
+    {
+        paranoid: true,
+    }
+    );
 };
