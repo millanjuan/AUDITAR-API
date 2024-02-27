@@ -3,13 +3,10 @@ const { SECRET_KEY } = process.env;
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 
-const USERNAME_FIELD = "username";
-const EMAIL_FIELD = "email";
-const PASSWORD_FIELD = "password";
 
 const validateUser = async (username, password) => {
     try {
-        let user = await User.findOne({ where: { [USERNAME_FIELD]: username } });
+        let user = await User.findOne({ where: { username: username } });
 
         if (!user) {
             throw new Error("Invalid username/password, please try again.");
@@ -18,7 +15,7 @@ const validateUser = async (username, password) => {
         const comparePasswords = await bcrypt.compare(password, user.password);
 
         if (comparePasswords) {
-            delete user.dataValues[PASSWORD_FIELD];
+            delete user.dataValues.password;
             const token = jwt.sign(user.dataValues, SECRET_KEY, { expiresIn: '2h' });
             return { token, user: user.dataValues };
         } else {
@@ -42,7 +39,7 @@ const getUsers = async () => {
 const getUserProfile = async (id) => {
     try {
         const user = await User.findByPk(id, {
-            attributes: { exclude: ["id", PASSWORD_FIELD, "createdAt", "updatedAt"] }
+            attributes: { exclude: ["id", "password", "createdAt", "updatedAt"] }
         });
         if (!user) {
             throw new Error("User not found.");
@@ -57,12 +54,16 @@ const getUserProfile = async (id) => {
 
 const postUser = async (user) => {
     try {
-        const { username, email, password } = user;
-
+        const { username, email, password, rol, name, lastname, cellphone, profilePicture } = user;
+        if (!username || !email || !password) {
+            throw new Error("El nombre de usuario, correo electrónico y contraseña son obligatorios");
+        }
+        
         const passwordHash = await bcrypt.hash(password, 10);
 
-        const newUser = await User.create({ [USERNAME_FIELD]: username, [EMAIL_FIELD]: email, [PASSWORD_FIELD]: passwordHash });
-        delete newUser.dataValues[PASSWORD_FIELD];
+        const newUser = await User.create({ username, email, rol, password: passwordHash, 
+            name, lastname, cellphone, profilePicture });
+        delete newUser.dataValues.password;
         return newUser;
     } catch (error) {
         console.error(error.message);

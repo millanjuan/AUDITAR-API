@@ -18,4 +18,6 @@ userRouter.get('/', verifyToken, verifyAdmin, getUsersHandler)
 userRouter.get('/profile', verifyToken, getUserProfileHandler);
 userRouter.post("/register", validateUser, postUserHandler) 
 userRouter.put('/profile', verifyToken, putUserProfileHandler);
-userRouter.delete('/:id', verifyToken, verifyAdmin, deleteUsersHandler)
+userRouter.delete('/:id', verifyToken, verifyAdmin, deleteUsersHandler);
+
+module.exports = userRouter;
