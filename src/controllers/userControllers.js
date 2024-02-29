@@ -2,6 +2,7 @@ const { User } = require("../db");
 const { SECRET_KEY } = process.env;
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
+const { Op } = require("sequelize");
 
 const validateUser = async (username, password) => {
   try {
@@ -64,6 +65,18 @@ const postUser = async (user) => {
       profilePicture,
     } = user;
 
+    const existingUser = await User.findOne({
+      where: { [Op.or]: [{ username }, { email }] },
+    });
+
+    if (existingUser) {
+      if (existingUser.username === username) {
+        throw new Error("El nombre de usuario ya está en uso.");
+      } else if (existingUser.email === email) {
+        throw new Error("El correo electrónico ya está en uso.");
+      }
+    }
+
     const passwordHash = await bcrypt.hash(password, 10);
 
     const newUser = await User.create({
@@ -76,12 +89,15 @@ const postUser = async (user) => {
       cellphone,
       profilePicture,
     });
+
     delete newUser.dataValues.password;
+
     const token = jwt.sign(newUser.dataValues, SECRET_KEY, { expiresIn: "2h" });
+
     return { token, user: newUser.dataValues };
   } catch (error) {
     console.error(error.message);
-    throw error;
+    throw new Error(error.message);
   }
 };
 

@@ -36,7 +36,13 @@ const postUserHandler = async (req, res) => {
     }
   } catch (error) {
     console.error(error);
-    res.status(500).json({ error: "Internal Server Error" });
+    if (error.message.includes("nombre de usuario")) {
+      res.status(400).json({ error: error.message });
+    } else if (error.message.includes("correo electrónico")) {
+      res.status(400).json({ error: error.message });
+    } else {
+      res.status(500).json({ error: "Error interno del servidor." });
+    }
   }
 };
 
