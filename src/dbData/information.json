@@ -1,606 +1,743 @@
 {
-    "data":[
+  "data": [
+    {
+      "id": 1,
+      "name": "Bar - Comedor - Restaurante",
+      "image": "https://res.cloudinary.com/dhu3uii7o/image/upload/v1705427029/RUBROS/BAR%2C%20COMEDOR%2C%20RESTAURANTE.jpg",
+      "statement": "Lo más importante de un establecimiento elaborador es observar la cocina, las condiciones de higiene y sistemas de ventilación",
+      "form": [
         {
-            "id":1,
-            "name": "Bar - Comedor - Restaurante",
-            "image": "https://res.cloudinary.com/dhu3uii7o/image/upload/v1705427029/RUBROS/BAR%2C%20COMEDOR%2C%20RESTAURANTE.jpg",
-            "statement": "Lo más importante de un establecimiento elaborador es observar la cocina, las condiciones de higiene y sistemas de ventilación",
-            "form": [
-                {
-                    "pregunta": "1. Certificado de fumigación del establecimiento al día", 
-                    "respuestas":["SI", "NO"],
-                    "observacion":null
-                },
-                {
-                    "pregunta": "2. ¿Todos manipuladores poseen carnet de manipulación de alimentos (cocineros, bacheros, mozos, etc)?", 
-                    "respuestas":["SI", "NO"], 
-                    "observacion": "CANTIDAD DE IDENTIFICADORES VIGENTES"
-                },
-                {
-                    "pregunta":"3. ¿Todos manipuladores que elabran la comida tienen la vestimenta adecuada (delantal/chaqueta, gorra/cofia, pantalón largo) y el cabello recogido en caso de tener el cabello largo?",
-                    "respuestas":["SI", "NO"],
-                    "observacion": null
-                },
-                {
-                    "pregunta":"4. Observar si hay condiciones adecuadas de orden e higiene. ",
-                    "respuestas":null,
-                    "observacion": "Ingrese las observaciones correspondientes:"
-                },
-                {
-                    "pregunta":"5. Los utensilios y demás elementos de cocina (ollas, sartenes, licuadoras, procesadoras, tuppers, asaderas) son aptos y se encuentran en condiciones higiénicas adecuadas?",
-                    "respuestas":["SI", "NO"],
-                    "observacion": null
-                },
-                {
-                    "pregunta":"6. ¿Los elementos de cocina (hornos, freidoras, etc.). son aptos y se encuentran en condiciones higiénicas adecuadas?",
-                    "respuestas":["SI", "NO"],
-                    "observacion": null
-                },
-                {
-                    "pregunta":"7. ¿Posee bachas para lavado de alimentos y otra para lavado de manos y utensilios?",
-                    "respuestas":["SI", "NO"],
-                    "observacion": null
-                },
-                {
-                    "pregunta":"8. ¿Posee mesadas de acero inoxidable?",
-                    "respuestas":["SI", "NO"],
-                    "observacion": "Observaciones:"
-                },
-                {
-                    "pregunta":"9. ¿Poseen tachos de basura con bolsa, pedal y tapa?",
-                    "respuestas":["SI", "NO"],
-                    "observacion": null
-                },
-                {
-                    "pregunta":"10. Registro de la temperatura de las heladeras:",
-                    "respuestas":["RANGO DE 4 °C - 8 °C", "POR ENCIMA DE 8 °C"],
-                    "observacion": null
-                },
-                {
-                    "pregunta":"11. Orden y condiciones de la heladera:\n1) Observar que la producción esté contenida en envases aptos y rotulados.\n2) Productos crudos y cocidos deben estar separados\n3) Los productos cárnicos deben estar contenidos en recipientes adecuados para evitar derrames de líquidos sobre otros alimentos\n5) Control de fechas de vencimiento y registros de los productos, que no haya latas abiertas ni utensilios dentro de la heladera, etc.",
-                    "respuestas":["CONDICIONES APTAS", "CONDICIONES NO APTAS"],
-                    "observacion": null
-                },
-                {
-                    "pregunta":"12. Orden y condiciones de los frezzers:\n1) Observar que el frezzer mantenga el material revestible apto e higiénico, los productos se encuentren embolsados y rotulados \n2) Verificar la procedencia de los productos cárnicos \n3) Sellos de habilitación de SENASA (los distintos tipos de carnes vaca, cabrito, chancho, pescados, pollos deben estar separados). ",
-                    "respuestas":["CONDICIONES APTAS", "CONDICIONES NO APTAS"],
-                    "observacion": null
-                },
-                {
-                    "pregunta":"13. En caso de poseer cámara de frío verificar temperatura de la misma:",
-                    "respuestas": null,
-                    "observacion": "Ingrese la temperatura en ºC:"
-                },
-                {
-                    "pregunta":"14. Orden y condiciones de almacenamiento de los productos en la cámara:\n1) Observar si la mercadería se encuentra almacenada en condiciones adecuadas, si no se encuentran en el piso, observar fechas de vencimiento, procedencia y registros RNE/RNPA.",
-                    "respuestas":["CONDICIONES APTAS", "CONDICIONES NO APTAS"],
-                    "observacion":  null
-                },
-                {
-                    "pregunta":"15. Almacenamiento de mercadería, fechas de vencimiento y registros: \n1) Observar si la mercadería se encuentra almacenada en condiciones adecuadas, si no se encuentran en el piso, observar fechas de vencimiento, procedencia y registros RNE/RNPA.",
-                    "respuestas":["CONDICIONES APTAS", "CONDICIONES NO APTAS"],
-                    "observacion": null
-                },
-                {
-                    "pregunta":"16. Observar la presencia de roedores, insectos o moscas en la zona de depósitos cocina, baño y salón",
-                    "respuestas":["CONDICIONES APTAS", "CONDICIONES NO APTAS"],
-                    "observacion": null
-                },
-                {
-                    "pregunta":"17. Verificar las condiciones de lavado de utensilios: \n1) Observar si se realiza con agua potable y corriente, si se desinfectan, si los utensilios se secan en parrillas o se colocan en las mesadas.",
-                    "respuestas":["CONDICIONES APTAS", "CONDICIONES NO APTAS"],
-                    "observacion": null
-                },
-                {
-                    "pregunta":"18. Observar si los mozos fajinan la vajilla",
-                    "respuestas":["SI", "NO"],
-                    "observacion": null
-                },
-                {
-                    "pregunta":"19. Observar por unos minutos a los manipuladores de alimentos ¿se lavan las manos adecuadamente?",
-                    "respuestas":["SI", "NO"],
-                    "observacion": null
-                },
-                {
-                    "pregunta":"20. Observar las condiciones higiénicas del baño de los comensales y el de los trabajadores.",
-                    "respuestas":["CONDICIONES APTAS", "CONDICIONES NO APTAS"],
-                    "observacion": null
-                }
-            ]
-          },
-          {
-            "id":2,
-            "name": "Comercio - Kiosco - Drugstore - Vinoteca",
-            "image": "https://res.cloudinary.com/dhu3uii7o/image/upload/v1705427407/RUBROS/COMERCIO%2C%20KIOSCO%2C%20DRUGSTORE%2C%20VINOTECA.png",
-            "statement": "Como en estos establecimientos comerciales los manipuladores tienen un contacto de forma indirecta con los alimentos, se debe observar principalmente la forma de conservación, orden, limpieza y control de registros de los productos.",
-            "form":[
-                {
-                    "pregunta":"1. Certificado de fumigación del establecimiento al día",
-                    "respuestas":["SI", "NO"],
-                    "observacion": null
-                },
-                {
-                    "pregunta":"2. ¿Todos manipuladores poseen carnet de manipulación de alimentos?",
-                    "respuestas":["SI", "NO"],
-                    "observacion": "Cantidad de identificaciones vigentes:"
-                },
-                {
-                    "pregunta":"3. Controlar fechas de vencimientos y registros de los productos alimenticios:",
-                    "respuestas":["CONTROL CUMPLIDO", "CONTROL INCUMPLIDO"],
-                    "observacion": "Observaciones:"
-                },
-                {
-                    "pregunta":"4. Registro de la temperatura de las heladeras:",
-                    "respuestas":["RANGO DE 4 °C - 8 °C", "POR ENCIMA DE 8 °C"],
-                    "observacion": null
-                },
-                {
-                    "pregunta":"5. Observar las fechas de vencimiento, registro y almacenamiento de fiambres y si están en condiciones adecuadas:",
-                    "respuestas":["CUMPLE", "NO CUMPLE"],
-                    "observacion": "Observaciones:"
-                },
-                {
-                    "pregunta":"6. Observar el almacenamiento de huevos es adecuado (en un lugar fresco y oscuro):",
-                    "respuestas":["CUMPLE", "NO CUMPLE"],
-                    "observacion": null
-                },
-                {
-                    "pregunta":"7. Observar que no existan latas de conservas abolladas o envases fisurados:",
-                    "respuestas":["CUMPLE", "NO CUMPLE"],
-                    "observacion": null
-                },
-                {
-                    "pregunta":"8. Observar la estiba de los alimentos (que no estén directamente en el suelo, que estén separados de los productos químicos y de los de limpieza)",
-                    "respuestas":["CUMPLE", "NO CUMPLE"],
-                    "observacion": null
-                },
-                {
-                    "pregunta":"9. Observar el orden, limpieza y condiciones de almacenamientos de los productos para evitar la probabilidad de que existan plagas en el establecimiento",
-                    "respuestas":["CUMPLE", "NO CUMPLE"],
-                    "observacion": null
-                },
-                {
-                    "pregunta":"10. Poseen bacha para el lavado de manos:",
-                    "respuestas":["SI", "NO"],
-                    "observacion": null
-                },
-                {
-                    "pregunta":"11- Observar las condiciones higiénicas del baño de los trabajadores",
-                    "respuestas":["CONDICIONES APTAS", "CONDICIONES NO APTAS"],
-                    "observacion": null
-                },
-                {
-                    "pregunta":"12.Observar que no haya productos que necesiten refrigeración fuera de las heladeras.",
-                    "respuestas":["CUMPLE", "NO CUMPLE"],
-                    "observacion": null
-                }
-            ]
-          },
-          {
-            "id":3,
-            "name": "Carnicería - Pollería - Pescadería",
-            "image": "https://res.cloudinary.com/dhu3uii7o/image/upload/v1705427580/RUBROS/CARNICERIA%2C%20POLLERIA%2C%20PESCADERIA.jpg",
-            "statement": "Lo más importante en estos establecimientos es la procedencia de los productos, la forma de conservarlos y manipularlos.",
-            "form":[
-                {
-                    "pregunta":"1. Certificado de fumigación del establecimiento al día",
-                    "respuestas":["SI", "NO"],
-                    "observacion": null
-                },
-                {
-                    "pregunta":"2. ¿Todos manipuladores poseen carnet de manipulación de alimentos ?",
-                    "respuestas":["SI", "NO"],
-                    "observacion": "Cantidad de identificaciones vigentes:"
-                },
-                {
-                    "pregunta":"3. ¿Todos manipuladores que elabran la comida tienen la vestimenta adecuada (delantal/chaqueta, gorra/cofia, pantalón largo) y el cabello recogido en caso de tener el cabello largo?",
-                    "respuestas":["SI", "NO"],
-                    "observacion": null
-                },
-                {
-                    "pregunta":"4. Solicitar la procedencia sellos de SENASA de los productos cárnicos (Ganado Vacuno, Porcino, Caprino, etc.):",
-                    "respuestas":["CUMPLE", "NO CUMPLE", "NO EXPENDEN CARNE"],
-                    "observacion": null
-                },
-                {
-                    "pregunta":"5. Solicitar la procedencia de los pollos faenados en el día:",
-                    "respuestas":["CUMPLE", "NO CUMPLE", "NO EXPENDEN POLLOS FANEADOS EN EL DÍA"],
-                    "observacion": null
-                },
-                {
-                    "pregunta":"6. Observar las fechas de vencimientos y registros de los pollos congelados",
-                    "respuestas":["CUMPLE", "NO CUMPLE", "NO EXPENDEN POLLOS"],
-                    "observacion": null
-                },
-                {
-                    "pregunta":"7. Observar las fechas de vencimientos y registros de los productos de mar (pescados, moluscos y crustáceos):",
-                    "respuestas":["CUMPLE", "NO CUMPLE", "NO EXPENDEN PRODUCTOS DE MAR"],
-                    "observacion": null
-                },
-                {
-                    "pregunta":"8. Registro de temperaturas de heladeras mostrador",
-                    "respuestas":["RANGO DE 4 °C - 8 °C", "POR ENCIMA DE 8 °C"],
-                    "observacion": null
-                },
-                {
-                    "pregunta":"9. Observar que no estén en la misma heladera mostrador distintos productos y subproductos de carne, pescados y pollos:",
-                    "respuestas":["CUMPLE", "NO CUMPLE"],
-                    "observacion": "Observaciones:"
-                },
-                {
-                    "pregunta":"10. Observar que las heladeras exhibidoras no posean iluminación con luz violeta, rosa:",
-                    "respuestas":["CUMPLE", "NO CUMPLE"],
-                    "observacion": null
-                },
-                {
-                    "pregunta":"11. Observar que no tengan carne picada expuestas o hamburguesas de elaboración propias exhibidas en las heladeras mostrador.",
-                    "respuestas":["CUMPLE", "NO CUMPLE"],
-                    "observacion": null
-                },
-                {
-                    "pregunta":"12. Observar que frezzer no tengan distintos productos y subproductos cárnicos mezclados:",
-                    "respuestas":["CUMPLE", "NO CUMPLE"],
-                    "observacion": null
-                },
-                {
-                    "pregunta":"13. Observar que si se elabora chorizos u otros chacinados sea bajo las condiciones adecuadas:",
-                    "respuestas":["CUMPLE", "NO CUMPLE"],
-                    "observacion": null
-                },
-                {
-                    "pregunta":"14. En caso de poserr cámara de frio registrar temperatura",
-                    "respuestas": null,
-                    "observacion": "Ingrese la temperatura en ºC:"
-                },
-                {
-                    "pregunta":"15. Orden y condiciones de almacenamiento de los productos en la cámara:\n1) Cortes de carnes colgados, embolsados y rotulados\n2) Que no haya carne picada\n3) Que no haya carne en envases no aptos\n4) Que no se encuentren en el suelo\n 5)Que no se almacene otros tipos de alimento como verduras o preparados para milanesas",
-                    "respuestas":["CONDICIONES APTAS", "CONDICIONES NO APTAS"],
-                    "observacion": null
-                },
-                {
-                    "pregunta":"16. Preparacón de milanesas o subproductos en condiciones adecuadas",
-                    "respuestas":["CONDICIONES APTAS", "CONDICIONES NO APTAS"],
-                    "observacion": null
-                },
-                {
-                    "pregunta":"17. Observar la higiene de las maquinas (ej.: las picadoras de carne, sierras, etc.)",
-                    "respuestas":["CONDICIONES APTAS", "CONDICIONES NO APTAS"],
-                    "observacion": null
-                },
-                {
-                    "pregunta":"18. Posee bachas para lavado de alimentos y otra para lavado de manos y utensilios",
-                    "respuestas":["SI", "NO"],
-                    "observacion": null
-                },
-                {
-                    "pregunta":"19. ¿Posee mesadas de acero inoxidable?",
-                    "respuestas":["SI", "NO"],
-                    "observacion": "Observaciones:"
-                },
-                {
-                    "pregunta":"20. ¿Poseen tachos de basura con bolsa, pedal y tapa?",
-                    "respuestas":["SI", "NO"],
-                    "observacion": null
-                },
-                {
-                    "pregunta":"21. Observar por unos minutos a los manipuladores de alimentos ¿se lavan las manos adecuadamente?",
-                    "respuestas":["SI", "NO"],
-                    "observacion": null
-                },
-                {
-                    "pregunta":"22. Observar las condiciones higiénicas del baño el de los trabajadores.",
-                    "respuestas":["CONDICIONES APTAS", "CONDICIONES NO APTAS"],
-                    "observacion": null
-                }
-            ]
-          },
-          {
-            "id":4,
-            "name": "Verdulería",
-            "image": "https://res.cloudinary.com/dhu3uii7o/image/upload/v1705427654/RUBROS/VERDULERIA.jpg",
-            "statement": "Es importante observar el almacenamiento y estiba de frutas y verduras.",
-            "form":[
-                {
-                    "pregunta": "1. Certificado de fumigación del establecimiento al día",
-                    "respuestas":["SI", "NO"],
-                    "observacion": null
-                },
-                {
-                    "pregunta": "2. ¿Todos manipuladores poseen carnet de manipulación de alimentos ?",
-                    "respuestas":["SI", "NO"],
-                    "observacion": "Cantidad de identificaciones vigentes:"
-                },
-                {
-                    "pregunta": "3. Observar que las frutas y verduras se encuentren almacenadas en condiciones adecuadas (no estén en el suelo ni en depósitos con pisos de tierra o donde se almacena maquinas o chatarras)",
-                    "respuestas":["CUMPLE", "NO CUMPLE"],
-                    "observacion": null
-                },
-                {
-                    "pregunta": "4. Observar que los cajones de exposición solo contengan verduras o frutas y no contengan otro tipo de productos por ejemplo botellas",
-                    "respuestas":["CUMPLE", "NO CUMPLE"],
-                    "observacion": null
-                },
-                {
-                    "pregunta": "5. Conocer la procedencia de las frutas y verduras",
-                    "respuestas":null,
-                    "observacion": "Observaciones:"
-                },
-                {
-                    "pregunta": "6. Observar el orden y limpieza del espacio de venta",
-                    "respuestas":["CUMPLE", "NO CUMPLE"],
-                    "observacion": null
-                },
-                {
-                    "pregunta": "7. Observar si la exposición de los productos es adecuada (observar la higiene, si se expenden en un establecimiento o al aire libre)",
-                    "respuestas":["CUMPLE", "NO CUMPLE"],
-                    "observacion": null
-                },
-                { 
-                    "pregunta": "8. Observar si realiza la correcta separación y disposición de desechos (frutas y verduras en mal estado o podridas)",
-                    "respuestas":["CUMPLE", "NO CUMPLE"],
-                    "observacion": null
-                },
-                {
-                    "pregunta": "9. Posee bachas para lavado de alimentos y otra para lavado de manos y utensilios",
-                    "respuestas":["SI", "NO"],
-                    "observacion": null
-                },
-                {
-                    "pregunta": "10. Observar por unos minutos a los manipuladores de alimentos ¿se lavan las manos adecuadamente?",
-                    "respuestas":["SI", "NO"],
-                    "observacion": null
-                },
-                {
-                    "pregunta": "11. Observar que no tengan carne picada expuestas o hamburguesas de elaboración propias exhibidas en las heladeras mostrador.",
-                    "respuestas":["CONDICIONES APTAS", "CONDICIONES NO APTAS"],
-                    "observacion": null
-                }
-            ]
-          },
-          {
-            "id":5,
-            "name": "Panadería",
-            "image": "https://res.cloudinary.com/dhu3uii7o/image/upload/v1705427795/RUBROS/Panaderia.jpg",
-            "statement": "Lo más importante es observar las condiciones de elaboración, conservación de los productos y la procedencia de la materia prima.",
-            "form":[
-                {
-                    "pregunta": "1. Certificado de fumigación del establecimiento al día",
-                    "respuestas":["SI", "NO"],
-                    "observacion": null
-                },
-                {
-                    "pregunta": "2. ¿Todos manipuladores poseen carnet de manipulación de alimentos ?",
-                    "respuestas":["SI", "NO"],
-                    "observacion": "Cantidad de identificaciones vigentes:"
-                },
-                {
-                    "pregunta": "3. Los manipuladores que elaboran la comida tienen la vestimenta adecuada (delantal/chaqueta, gorra/cofia, pantalón largo)",
-                    "respuestas":["SI", "NO"],
-                    "observacion": null
-                },
-                {
-                    "pregunta": "4. Observar los registros, fechas de vencimientos de harinas, materias primas e insumos",
-                    "respuestas":["POSEE LOS REGISTROS NECESARIOS", "NO LOS POSEE"],
-                    "observacion": null
-                },
-                {
-                    "pregunta": "5. Observar si hay detectar el uso de bromatos (prohibido)",
-                    "respuestas":["CUMPLE", "NO CUMPLE"],
-                    "observacion": null
-                },
-                {
-                    "pregunta": "6. Observar que la estiba de harinas, materia prima e insumos sea adecuada",
-                    "respuestas":["CUMPLE", "NO CUMPLE"],
-                    "observacion": null
-                },
-                {
-                    "pregunta": "7. Registro de la temperatura de las heladeras",
-                    "respuestas":["RANGO DE 4 °C - 8 °C", "POR ENCIMA DE 8 °C"],
-                    "observacion": null
-                },
-                {
-                    "pregunta": "8. Observar la higiene de las maquinas, hornos, amasadoras, cortadoras",
-                    "respuestas":["CUMPLE", "NO CUMPLE"],
-                    "observacion": null
-                },
-                {
-                    "pregunta": "9. Observar si los utensilios y demás elementos de cocina (ollas, sartenes, batidoras, procesadoras, tuppers, asaderas) son aptos y se encuentran en condiciones higiénicas adecuadas",
-                    "respuestas":["CUMPLE", "NO CUMPLE"],
-                    "observacion": null
-                },
-                {
-                    "pregunta": "10. ¿Posee bachas para lavado de alimentos y otra para lavado de manos y utensilios?",
-                    "respuestas":["SI", "NO"],
-                    "observacion": null
-                },
-                {
-                    "pregunta": "11. ¿Posee mesadas de acero inoxidable?",
-                    "respuestas":["SI", "NO"],
-                    "observacion": "Observaciones:"
-                },
-                {
-                    "pregunta": "12. Poseen tachos de basura con bolsa pedal y tapa:",
-                    "respuestas":["SI", "NO"],
-                    "observacion": null
-                },
-                {
-                    "pregunta": "13. Observar por unos minutos a los manipuladores de alimentos ¿se lavan las manos adecuadamente?",
-                    "respuestas":["SI", "NO"],
-                    "observacion": null
-                },
-                {
-                    "pregunta": "14. Observar las condiciones higiénicas del baño de los comensales y el de los trabajadores.",
-                    "respuestas":["CONDICIONES APTAS", "CONDICIONES NO APTAS"],
-                    "observacion": null
-                }
-            ]
-          },
-          {
-            "id":6,
-            "name": "Vendedores Ambulantes",
-            "image": "https://res.cloudinary.com/dhu3uii7o/image/upload/v1705427856/RUBROS/VENDEDORES%20AMBULANTES.png",
-            "statement": null,
-            "form":[
-                {
-                    "pregunta": "1. ¿Todos manipuladores poseen carnet de manipulación de alimentos ?",
-                    "respuestas": ["SI", "NO"],
-                    "observacion": "Cantidad de identificaciones vigentes:"
-                },
-                {
-                    "pregunta": "2. Observar la higiene del lugar asignado",
-                    "respuestas": ["CONDICIONES APTAS", "CONDICIONES NO APTAS"],
-                    "observacion": null
-                },
-                {
-                    "pregunta": "3. Los alimentos se encuentran transportados en condiciones adecuadas (conservadoras, tuppers, bolsas)",
-                    "respuestas": ["SI", "NO"],
-                    "observacion": null
-                },
-                {
-                    "pregunta": "4. Observar los registros y fechas de vencimientos de los productos",
-                    "respuestas": ["CONDICIONES APTAS", "CONDICIONES NO APTAS"],
-                    "observacion": null
-                },
-                {
-                    "pregunta": "5. los manipuladores que elaboran la comida tienen la vestimenta adecuada (delantal/chaqueta, gorra/cofia, pantalón largo):",
-                    "respuestas": ["SI", "NO"],
-                    "observacion": null
-                },
-                {
-                    "pregunta": "6. Poseen dispenser con agua potable para lavado de manos",
-                    "respuestas": ["SI", "NO"],
-                    "observacion": null
-                },
-                {
-                    "pregunta": "7. ¿Tienen aderezos se encuentran en una conservadora con hielo?",
-                    "respuestas": ["SI", "NO", "NO TIENEN ADEREZOS"],
-                    "observacion": null
-                },
-                {
-                    "pregunta": "8. Si trabajan con huevo, ¿se encuentran lejos de las planchas de calor?",
-                    "respuestas": ["SI", "NO", "NO TRABAJAN CON HUEVOS"],
-                    "observacion": null
-                },
-                {
-                    "pregunta": "9. Trabajan con utensilios y pinzas adecuadas",
-                    "respuestas": ["SI", "NO"],
-                    "observacion": null
-                },
-                {
-                    "pregunta": "10. Hay una persona para cobrar y otra que elabora los alimentos",
-                    "respuestas": ["SI", "NO"],
-                    "observacion": "Otras observaciones:"
-                }
-            ]
-          },
-          {
-            "id":7,
-            "name": "Inspección de Habilitación",
-            "image": "https://res.cloudinary.com/dhu3uii7o/image/upload/v1705428020/RUBROS/INSPECCION%20DE%20HABILITACION.jpg",
-            "statement": "Detallar las condiciones del nuevo establecimiento a habilitar teniendo en cuenta las siguientes observaciones:",
-            "form":[
-                {
-                    "pregunta": "1. Controlar las condiciones edilicias (si las paredes están pintadas con pintura lavable, el sistema de ventilación, las condiciones de los baños)",
-                    "respuestas": null,
-                    "observacion": null
-                },
-                {
-                    "pregunta": "2. Controlar el equipamiento (observando que sean aptos para manipular alimentos; ej.: las mesadas de acero inoxidable).",
-                    "respuestas": null,
-                    "observacion": null
-                },
-                {
-                    "pregunta": "3. Observar que el mobiliario y equipamiento sea el mínimo e indispensable para realizar el trabajo (ej.: que tengan heladeras si necesitan conservar alimentos, que tengan bachas para el lavado de manos, que tengan las mesadas necesarias para manipular alimentos, etc.).",
-                    "respuestas": null,
-                    "observacion": null
-                },
-                {
-                    "pregunta": "4. Solicitar carnet de manipulación de alimentos",
-                    "respuestas": ["SI", "NO"],
-                    "observacion": "5. Observaciones:"
-                }
-            ]
-          },
-          {
-            "id":8,
-            "name": "Vehículos transportadores de alimentos",
-            "image": "https://res.cloudinary.com/dhu3uii7o/image/upload/v1705428189/RUBROS/VEHICULOS%20TRANSPORTADORES%20DE%20ALIMENTOS.jpg",
-            "statement": "Detallar las condiciones del nuevo establecimiento a habilitar teniendo en cuenta las siguientes observaciones:",
-            "form":[
-                {
-                    "pregunta": "1. ¿Todos manipuladores poseen carnet de manipulación de alimentos ?",
-                    "respuestas": ["SI", "NO"],
-                    "observacion": "Cantidad de identificaciones vigentes:"
-                },
-                {
-                    "pregunta": "2. Transportan alimentos de manera adecuada",
-                    "respuestas": ["SI", "NO"],
-                    "observacion": null
-                },
-                {
-                    "pregunta": "3. Poseen las boletas y registros de los productos transportados",
-                    "respuestas": ["SI", "NO"],
-                    "observacion": null
-                },
-                {
-                    "pregunta": "4. Son transportados con productos químicos y/o de limpieza",
-                    "respuestas": ["SI", "NO"],
-                    "observacion": "Observaciones:"
-                }
-            ]
-          },
-          {
-            "id":9,
-            "name": "Vehículos transportadores de alimentos con cámaras de frío",
-            "image": "https://res.cloudinary.com/dhu3uii7o/image/upload/v1705428475/RUBROS/VEHICULOS%20CAMARA%20DE%20FRIO.jpg",
-            "statement": "Detallar las condiciones del nuevo establecimiento a habilitar teniendo en cuenta las siguientes observaciones:",
-            "form":[
-                {
-                    "pregunta": "1. ¿Todos manipuladores poseen carnet de manipulación de alimentos ?",
-                    "respuestas": ["SI", "NO"],
-                    "observacion": "Cantidad de identificaciones vigentes:"
-                },
-                {
-                    "pregunta": "2. ¿Transportan alimentos de manera adecuada?",
-                    "respuestas": ["SI", "NO"],
-                    "observacion": null
-                },
-                {
-                    "pregunta": "3. Registrar temperatura de la cámara de frío",
-                    "respuestas": null,
-                    "observacion": "Ingrese la temperatura en ºC:"
-                },
-                {
-                    "pregunta": "4. Poseen las boletas y registros de los productos transportados",
-                    "respuestas": ["SI", "NO"],
-                    "observacion": null
-                },
-                {
-                    "pregunta": "5. Los transportadores de carne poseen el uniforme correcto",
-                    "respuestas": ["SI", "NO"],
-                    "observacion": "Otras observaciones:"
-                }
-            ]
-          },
-          {
-            "id":10,
-            "name": "Fábrica de alimentos",
-            "image": "https://res.cloudinary.com/dhu3uii7o/image/upload/v1705428546/RUBROS/FABRICA%20DE%20ALIMENTOS.jpg",
-            "statement": "Solicitar los checklist según el tipo de alimento o producto que elaboren.",
-            "form":[
-                {
-                    "pregunta": "Este control se llevó a cabo conforme a lo establecido por art. 14 de la ley 18.284 y por lo estipulado en el Código Alimentario Argentino.",
-                    "respuestas": null,
-                    "observacion": null
-                }
-            ]
-          },
-          {
-            "id":11,
-            "name": "Supermercado",
-            "image": "https://res.cloudinary.com/dhu3uii7o/image/upload/v1706839579/RUBROS/SUPERMERCADO.jpg",
-            "statement": null,
-            "form": null
-          }
-    ]
+          "pregunta": "1. Certificado de fumigación del establecimiento al día",
+          "respuestas": ["SI", "NO"],
+          "observacion": null,
+          "negative": "Tener el certificado de fumigación al día es necesario para evitar las plagas (roedores, cucarachas, moscas, etc.) en el local comercial, si se observa que la fumigación contratada no fue efectiva avisar al fumigador para que cambie de químicos o contratar a otra empresa de fumigación; GARANTIZAR QUE LA FUMIGACION SEA EFECTIVA Y CONTRATAR EMPRESAS HABILITADAS. "
+        },
+        {
+          "pregunta": "2. ¿Todos manipuladores poseen carnet de manipulación de alimentos (cocineros, bacheros, mozos, etc)?",
+          "respuestas": ["SI", "NO"],
+          "observacion": "Cantidad de identificaciones vigentes:",
+          "negative": "Contar con el carnet nacional de manipulación de alimentos es obligatorio para toda persona que tenga contacto directo o indirecto con los alimentos durante toda la cadena de producción hasta que llega al consumidor final (de la granja – el mar a la mesa); REALIZAR LA CAPACITACIÓN EN MANIPULACIÓN DE ALIMENTOS MINIMIZA EL RIESGO DE QUE APAREZACAN ENFERMEDADES TRASMITIDA POR LOS ALIMENTOS. ALIMENTOS = SALUD. "
+        },
+        {
+          "pregunta": "3. ¿Todos manipuladores que elabran la comida tienen la vestimenta adecuada (delantal/chaqueta, gorra/cofia, pantalón largo) y el cabello recogido en caso de tener el cabello largo?",
+          "respuestas": ["SI", "NO"],
+          "observacion": null,
+          "negative": "Contar con la vestimenta adecuada cada vez que manipulamos directamente un alimento es necesario para evitar una contaminación cruzada involuntaria como la caída del cabello en los alimentos. ES INDISPENSABLE Y OBLIGATORIO COLOCARSE EL UNIFORME DE TRABAJO CADA VEZ QUE MANIPULAMOS ALIMENTOS POR HIGUIENE PERSONAL Y DAR SEGURIDAD AL CONSUMIDOR  "
+        },
+        {
+          "pregunta": "4. Observar si hay condiciones adecuadas de orden e higiene. ",
+          "respuestas": null,
+          "observacion": "Ingrese las observaciones correspondientes:",
+          "negative": "El orden y limpieza son responsabilidades indispensables al momento de manipular alimentos. El trabajo comienza cuando limpio y desinfecto y termina cuando limpio y desinfecto.\n\nLIMPIAR: Es eliminar todo lo que vemos (RESTOS DE COMIDA, TIERRA, PARTICULAS DEL AMBIENTE, ETC.); lo hacemos cuando barremos, lavamos con esponja y detergente, etc.\n\nDESINFECTAR: es la eliminación de lo que no vemos (eliminación de los microorganismos patógenos que pueden contaminar los alimentos y causar enfermedades en los consumidores). Debemos realizarla con lavandina común (comprar lavandinas rotuladas; siempre debe estar envasada en envases opacos); no usar lavandinas aditivas (son las que tienen perfume, desinfectantes o en gel); leer la etiqueta para preparar adecuadamente la lavandina para que sea efectiva la desinfección (o preparar 10 mililitros de lavandina por 1 litro de agua); el agua con lavandina se debe preparar correctamente y diariamente para que sea efectivo la desinfección; no mezclar lavandina y detergente (es tóxico para la persona que lo realiza y la lavandina pierde su poder desinfectante).\n\nSe deben lavar y desinfectar pisos, baños, mesadas, utensilios, máquinas y todos los elementos de cocina.\n\nSe deben lavar, enjuagar; luego desinfectar y volver a enjuagar con abundante agua."
+        },
+        {
+          "pregunta": "5. Los utensilios y demás elementos de cocina (ollas, sartenes, licuadoras, procesadoras, tuppers, asaderas) son aptos y se encuentran en condiciones higiénicas adecuadas?",
+          "respuestas": ["SI", "NO"],
+          "observacion": null,
+          "negative": "El orden y limpieza son responsabilidades indispensables al momento de manipular alimentos, se debe garantizar diariamente estas tareas; el trabajo comienza cuando limpio y desinfecto y termina cuando limpio y desinfecto.\n\nLIMPIAR: Es eliminar todo lo que vemos (RESTOS DE COMIDA, TIERRA, PARTICULAS DEL AMIBIENTE, ETC.); lo hacemos cuando barremos, lavamos con esponja y detergente, etc.\n\nDESINFECTAR: es la eliminación de lo que no vemos (eliminación de los microorganismos patógenos que pueden contaminar los alimentos y causar enfermedades en los consumidores). Debemos realizarla con lavandina común (comprar lavandinas rotuladas; siempre debe estar envasada en envases opacos); no usar lavandinas aditivas (son las que tienen perfume, desinfectantes o en gel); leer la etiqueta para preparar adecuadamente la lavandina para que sea efectiva la desinfección (o preparar 10 mililitros de lavandina por 1 litro de agua); el agua con lavandina se debe preparar correctamente y diariamente para que sea efectivo la desinfección; no mezclar lavandina y detergente (es toxico para la persona que lo realiza y la lavandina pierde su poder desinfectante).\n\nSe deben lavar y desinfectar pisos, baños, mesadas, utensilios, máquinas y todos los elementos de cocina.\n\nSe deben lavar, enjuagar; luego desinfectar y volver a enjuagar con abundante agua."
+        },
+        {
+          "pregunta": "6. ¿Los elementos de cocina (hornos, freidoras, etc.). son aptos y se encuentran en condiciones higiénicas adecuadas?",
+          "respuestas": ["SI", "NO"],
+          "observacion": null,
+          "negative": "LIMPIAR: Es eliminar todo lo que vemos (RESTOS DE COMIDA, TIERRA, PARTICULAS DEL AMIBIENTE, ETC.); lo hacemos cuando barremos, lavamos con esponja y detergente, etc.\n\nDESINFECTAR: es la eliminación de lo que no vemos (eliminación de los microorganismos patógenos que pueden contaminar los alimentos y causar enfermedades en los consumidores). Debemos realizarla con lavandina común (comprar lavandinas rotuladas; siempre debe estar envasada en envases opacos); no usar lavandinas aditivas (son las que tienen perfume, desinfectantes o en gel); leer la etiqueta para preparar adecuadamente la lavandina para que sea efectiva la desinfección (o preparar 10 mililitros de lavandina por 1 litro de agua); el agua con lavandina se debe preparar correctamente y diariamente para que sea efectivo la desinfección; no mezclar lavandina y detergente (es toxico para la persona que lo realiza y la lavandina pierde su poder desinfectante).\n\nSe deben lavar y desinfectar pisos, baños, mesadas, utensilios, máquinas y todos los elementos de cocina.\n\nSe deben lavar, enjuagar; luego desinfectar y volver a enjuagar con abundante agua."
+        },
+        {
+          "pregunta": "7. ¿Posee bachas para lavado de alimentos y otra para lavado de manos y utensilios?",
+          "respuestas": ["SI", "NO"],
+          "observacion": null,
+          "negative": "Cuando manipulamos alimentos debemos tener garantizada el agua potable y corriente para lavarse constantemente las manos y contar con otro espacio adecuado para poder lavar los utensilios.\n\nSIEMPRE SE DEBE UTILIZAR AGUA POTABLE CORRIENTE Y SEGURA PARA LAVARSE LAS MANOS, PARA REGAR PLANTACIONES DE FRUTAS Y VERDURAS, PARA LAVAR TODOS LOS ELEMENTOS DE COCINA, PARA CONSUMIR Y COCINAR."
+        },
+        {
+          "pregunta": "8. ¿Posee mesadas de acero inoxidable?",
+          "respuestas": ["SI", "NO"],
+          "observacion": "Observaciones:",
+          "negative": "El acero inoxidable en la cocina es indispensable debido a que no se adhieren los microrganismos, ni la suciedad; siendo fácil y efectiva la limpieza y desinfección."
+        },
+        {
+          "pregunta": "9. ¿Poseen tachos de basura con bolsa, pedal y tapa?",
+          "respuestas": ["SI", "NO"],
+          "observacion": null,
+          "negative": "Contar con tachos de basura con bolsa, pedal y tapa evita la contaminación cruzada, ya que la basura de las cocinas es mayormente materia orgánica donde los microorganismos viven y pueden causar contaminaciones cruzadas por ejemplo al levantar la tapa para tirar la basura y seguir manipulando alimentos sin lavarse las manos.\nNO DEJAR LA BASURA EN EL LUGAR DE COCINA CUANDO TERMINO LA JORNADA."
+        },
+        {
+          "pregunta": "10. Registro de la temperatura de las heladeras:",
+          "respuestas": ["RANGO DE 4 °C - 8 °C", "POR ENCIMA DE 8 °C"],
+          "observacion": null,
+          "negative": "La heladera es un método de conservación.\nSe deben conservar principalmente los productos de alto riesgo (carnes, lácteos, huevos, aderezos, comidas preparadas), debido a que los microorganismos patógenos (son los que causan enfermedades) se pueden desarrollar principalmente en estos productos muy rápidamente a temperatura ambiente."
+        },
+        {
+          "pregunta": "11. Orden y condiciones de la heladera:",
+          "puntos": [
+            "Observar que la producción esté contenida en envases aptos y rotulados.",
+            "Productos crudos y cocidos deben estar separados",
+            "Los productos cárnicos deben estar contenidos en recipientes adecuados para evitar derrames de líquidos sobre otros alimentos",
+            "Control de fechas de vencimiento y registros de los productos, que no haya latas abiertas ni utensilios dentro de la heladera, etc"
+          ],
+          "respuestas": ["CONDICIONES APTAS", "CONDICIONES NO APTAS"],
+          "observacion": null,
+          "negative": "Es necesario tener un orden e higiene efectiva en las heladeras, evitando la sobrecarga de alimentos y controlando diariamente que enfríe adecuadamente, NO DESENCHUFAR EN NINGUN MOMENTO si la heladera está conteniendo alimentos.\nRecuerden contener en envases aptos para alimentos (tuppers, bandejas, frascos), rotular con contenido y fecha y ordenar adecuadamente la heladera. LOS ALIMENTOS NO PUEDEN ESTAR EN CONTENIDOS EN ENVASES NO APTOS (como los tachos de pintura o bidones de químicos lavandina, detergente, desinfectante, etc.) ya que estos envases contienen residuos químicos que pueden pasar a los alimentos."
+        },
+        {
+          "pregunta": "12. Orden y condiciones de los frezzers:",
+          "puntos": [
+            "Observar que el frezzer mantenga el material revestible apto e higiénico, los productos se encuentren embolsados y rotulados ",
+            "Verificar la procedencia de los productos cárnicos",
+            "Sellos de habilitación de SENASA (los distintos tipos de carnes vaca, cabrito, chancho, pescados, pollos deben estar separados)."
+          ],
+          "respuestas": ["CONDICIONES APTAS", "CONDICIONES NO APTAS"],
+          "observacion": null,
+          "negative": "La congelación de alimento es un método de conservación.\nLos alimentos congelados tienen una larga vida útil, debemos congelarlos porcionados y embolsados adecuadamente; NO SE PUEDE DESCONGELAR UN ALIMENTO Y LUEGO VOLVER A CONGELARLO; TAMPOCO SE PUEDE DESCONGELAR A TEMPERATURA AMBIENTE (se debe pasar a refrigeración contenido en un envase que retenga liquido o descongelar con la opción del microondas)."
+        },
+        {
+          "pregunta": "13. En caso de poseer cámara de frío verificar temperatura de la misma:",
+          "respuestas": null,
+          "observacion": "Ingrese la temperatura en ºC:",
+          "negative": "La cámara de frío funciona como un método de conservación al igual que la heladera.\nSe deben conservar principalmente los productos de alto riesgo (carnes, lácteos, huevos, aderezos, comidas preparadas), debido a que los microorganismos patógenos (son los que causan enfermedades) se pueden desarrollar principalmente en estos productos."
+        },
+        {
+          "pregunta": "14. Orden y condiciones de almacenamiento de los productos en la cámara:",
+          "respuestas": ["CONDICIONES APTAS", "CONDICIONES NO APTAS"],
+          "observacion": null,
+          "puntos": [
+            "Observar si la mercadería se encuentra almacenada en condiciones adecuadas",
+            "Si no se encuentran en el piso",
+            "Observar fechas de vencimiento, procedencia y registros RNE/RNPA"
+          ],
+          "negative": "Recuerden contener en envases aptos para alimentos (tuppers, bandejas, frascos), rotular con contenido y fecha. \nLa cámara debe estar provista de estantes y condiciones higiénicas adecuadas. LOS ALIMENTOS NO PUEDEN ESTAR EN EL SUELO NI CONTENIDOS EN ENVASES NO APTOS (como los tachos de pintura, latas y latones herrumbrados, bidones de químicos lavandina, detergente, desinfectante, etc.) ya que estos envases contienen residuos químicos que pueden pasar a los alimentos."
+        },
+        {
+          "pregunta": "15. Almacenamiento de mercadería, fechas de vencimiento y registros:",
+          "respuestas": ["CONDICIONES APTAS", "CONDICIONES NO APTAS"],
+          "observacion": null,
+          "puntos": [
+            "Observar si la mercadería se encuentra almacenada en condiciones adecuadas",
+            "Si no se encuentran en el piso",
+            "Observar fechas de vencimiento, procedencia y registros RNE/RNPA"
+          ],
+          "negative": "Todos los alimentos que se elaboran y expenden en nuestro país deben estar registrados para saber su procedencia (origen, trazabilidad, etc.), y si provienen de un establecimiento habilitado para elaborar ese/esos tipos de alimentos. \n\nUn producto registrado posee un N° de RNE y un N° de RNPA y fechas de vencimientos (puede contener además la fecha de elaboración).\n\nEs importante que se asegure que los productos que se expendan en su comercio estén registrados para minimizar los riesgos de enfermedades: principalmente de productos de alto riesgo (lácteos, conservas, chacinados, fiambres, salsas, helados, productos para niños, etc.)."
+        },
+        {
+          "pregunta": "16. Observar la presencia de roedores, insectos o moscas en la zona de depósitos cocina, baño y salón",
+          "respuestas": ["CONDICIONES APTAS", "CONDICIONES NO APTAS"],
+          "observacion": null,
+          "negative": "Tener el certificado de fumigación al día es necesario para evitar las plagas (roedores, cucarachas, moscas, etc.) en el local comercial. Si se observa que la fumigación contratada no fue efectiva avisar al fumigador para que cambie de químicos o contratar a otra empresa de fumigación; GARANTIZAR QUE LA FUMIGACION SEA EFECTIVA Y CONTRATAR EMPRESAS HABILITADAS."
+        },
+        {
+          "pregunta": "17. Verificar las condiciones de lavado de utensilios:",
+          "respuestas": ["CONDICIONES APTAS", "CONDICIONES NO APTAS"],
+          "observacion": null,
+          "puntos": [
+            "Observar si se realiza con agua potable y corriente",
+            "Si se desinfectan",
+            "Si los utensilios se secan en parrillas o se colocan en las mesadas"
+          ],
+          "negative": "Es importante que todos los utensilios y demás elementos de cocina estén limpios y desinfectados diariamente. NO DEJAR ELEMENTOS SUCIOS DE UN DIA AL OTRO.\n\nLIMPIAR: Es eliminar todo lo que vemos (RESTOS DE COMIDA, TIERRA, PARTICULAS DEL AMIBIENTE, ETC.); lo hacemos cuando barremos, lavamos con esponja y detergente, etc.\nDESINFECTAR: es la eliminación de lo que no vemos (eliminación de los microorganismos patógenos que pueden contaminar los alimentos y causar enfermedades en los consumidores). Debemos realizarla con lavandina común (comprar lavandinas rotuladas; siempre debe estar envasada en envases opacos); no usar lavandinas aditivas (son las que tienen perfume, desinfectantes o en gel); leer la etiqueta para preparar adecuadamente la lavandina para que sea efectiva la desinfección (o preparar 10 mililitros de lavandina por 1 litro de agua); el agua con lavandina se debe preparar correctamente y diariamente para que sea efectivo la desinfección; no mezclar lavandina y detergente (es toxico para la persona que lo realiza y la lavandina pierde su poder desinfectante).\nSe deben lavar y desinfectar pisos, baños, mesadas, utensilios, máquinas y todos los elementos de cocina.\nSe deben lavar, enjuagar; luego desinfectar y volver a enjuagar con abundante agua."
+        },
+        {
+          "pregunta": "18. Observar si los mozos fajinan la vajilla",
+          "respuestas": ["SI", "NO"],
+          "observacion": null,
+          "negative": "Es importante que se fajinen los utensilios antes de presentarse en la mesa los utensilios, para ello colocar alcohol desinfectante al 70% en un envase tipo spray y aplicar sobre los mismos."
+        },
+        {
+          "pregunta": "19. Observar por unos minutos a los manipuladores de alimentos ¿se lavan las manos adecuadamente?",
+          "respuestas": ["SI", "NO"],
+          "observacion": null,
+          "negative": "El lavado de manos con agua potable corriente y segura debe realizarse en todo momento, antes de empezar a manipular alimentos, si utilizo elementos personales (teléfonos, computadora, dinero), luego de salir de los sanitarios (baños), luego de manipular productos de alto riesgo(carnes, huevos).\n\nSiempre lavarse con abundante agua y jabón.\n\nEl alcohol no suplanta el lavado de manos.\n\nEl uso de guantes no excluye al manipulador del lavado de manos."
+        },
+        {
+          "pregunta": "20. Observar las condiciones higiénicas del baño de los comensales y el de los trabajadores.",
+          "respuestas": ["CONDICIONES APTAS", "CONDICIONES NO APTAS"],
+          "observacion": null,
+          "negative": "Se deberá lavar el baño mínimamente tres veces durante una jornada de trabajo, con las recomendaciones necesarias de limpieza y desinfección.\n\nLIMPIAR: Es eliminar todo lo que vemos (RESTOS DE COMIDA, TIERRA, PARTICULAS DEL AMIBIENTE, ETC.); lo hacemos cuando barremos, lavamos con esponja y detergente, etc.\n\nDESINFECTAR: es la eliminación de lo que no vemos (eliminación de los microorganismos patógenos que pueden contaminar los alimentos y causar enfermedades en los consumidores). Debemos realizarla con lavandina común (comprar lavandinas rotuladas; siempre debe estar envasada en envases opacos); no usar lavandinas aditivas (son las que tienen perfume, desinfectantes o en gel); leer la etiqueta para preparar adecuadamente la lavandina para que sea efectiva la desinfección (o preparar 10 mililitros de lavandina por 1 litro de agua); el agua con lavandina se debe preparar correctamente y diariamente para que sea efectivo la desinfección; no mezclar lavandina y detergente (es toxico para la persona que lo realiza y la lavandina pierde su poder desinfectante).\n\nSe deben lavar y desinfectar pisos, baños, mesadas, utensilios, máquinas y todos los elementos de cocina.\n\nSe deben lavar, enjuagar; luego desinfectar y volver a enjuagar con abundante agua."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Comercio - Kiosco - Drugstore - Vinoteca",
+      "image": "https://res.cloudinary.com/dhu3uii7o/image/upload/v1705427407/RUBROS/COMERCIO%2C%20KIOSCO%2C%20DRUGSTORE%2C%20VINOTECA.png",
+      "statement": "Como en estos establecimientos comerciales los manipuladores tienen un contacto de forma indirecta con los alimentos, se debe observar principalmente la forma de conservación, orden, limpieza y control de registros de los productos.",
+      "form": [
+        {
+          "pregunta": "1. Certificado de fumigación del establecimiento al día",
+          "respuestas": ["SI", "NO"],
+          "observacion": null,
+          "negative": "Tener el certificado de fumigación al día es necesario para evitar las plagas (roedores, cucarachas, moscas, etc.) en el local comercial. Si se observa que la fumigación contratada no fue efectiva, avisar al fumigador para que cambie de químicos o contratar a otra empresa de fumigación; GARANTIZAR QUE LA FUMIGACIÓN SEA EFECTIVA Y CONTRATAR EMPRESAS HABILITADAS."
+        },
+        {
+          "pregunta": "2. ¿Todos manipuladores poseen carnet de manipulación de alimentos?",
+          "respuestas": ["SI", "NO"],
+          "observacion": "Cantidad de identificaciones vigentes:",
+          "negative": "Contar con el carnet nacional de manipulación de alimentos es obligatorio para toda persona que tenga contacto directo o indirecto con los alimentos durante toda la cadena de producción hasta que llega al consumidor final (de la granja – el mar a la mesa). REALIZAR LA CAPACITACIÓN EN MANIPULACIÓN DE ALIMENTOS MINIMIZA EL RIESGO DE QUE APAREZACAN ENFERMEDADES TRASMITIDAS POR LOS ALIMENTOS. ALIMENTOS = SALUD."
+        },
+        {
+          "pregunta": "3. Controlar fechas de vencimientos y registros de los productos alimenticios:",
+          "respuestas": ["CONTROL CUMPLIDO", "CONTROL INCUMPLIDO"],
+          "observacion": "Observaciones:",
+          "negative": "Todos los alimentos que se elaboran y expenden en nuestro país deben estar registrados para saber su procedencia (origen, trazabilidad, etc.), y si provienen de un establecimiento habilitado para elaborar ese/esos tipos de alimentos.\n\nUn producto registrado posee un N° de RNE y un N° de RNPA y fechas de vencimientos (puede contener además la fecha de elaboración).\n\nEs importante que se asegure que los productos que se expendan en su comercio estén registrados para minimizar los riesgos de enfermedades: principalmente de productos de alto riesgo (lácteos, conservas, chacinados, fiambres, salsas, helados, productos para niños, etc.)."
+        },
+        {
+          "pregunta": "4. Registro de la temperatura de las heladeras:",
+          "respuestas": ["RANGO DE 4 °C - 8 °C", "POR ENCIMA DE 8 °C"],
+          "observacion": null,
+          "negative": "La heladera es un método de conservación.\n\nSe deben conservar principalmente los productos de alto riesgo (carnes, lácteos, huevos, aderezos, comidas preparadas), debido a que los microorganismos patógenos (son los que causan enfermedades) se pueden desarrollar principalmente en estos productos muy rápidamente a temperatura ambiente."
+        },
+        {
+          "pregunta": "5. Controlar las fechas de vencimientos y registros de los productos que se encuentran en la heladera, mostrador y expositoras.",
+          "respuestas": ["CUMPLE", "NO CUMPLE"],
+          "observacion": "Observaciones:",
+          "negative": "Todos los alimentos que se elaboran y expenden en nuestro país deben estar registrados para saber su procedencia (origen, trazabilidad, etc.), y si provienen de un establecimiento habilitado para elaborar ese/esos tipos de alimentos. \n\nUn producto registrado posee un N° de RNE y un N° de RNPA y fechas de vencimientos (puede contener además la fecha de elaboración).\n\nEs importante que se asegure que los productos que se expendan en su comercio estén registrados para minimizar los riesgos de enfermedades: principalmente de productos de alto riesgo (lácteos, conservas, chacinados, fiambres, salsas, helados, productos para niños, etc.)."
+        },
+        {
+          "pregunta": "6. Observar las fechas de vencimiento, registro y almacenamiento de fiambres y si están en condiciones adecuadas:",
+          "respuestas": ["CUMPLE", "NO CUMPLE"],
+          "observacion": "Observaciones:",
+          "negative": "Todos los alimentos que se elaboran y expenden en nuestro país deben estar registrados para saber su procedencia, y que es un establecimiento habilitado para elaborar ese/esos tipos de alimentos. \n\nUn producto registrado posee un N° de RNE y un N° de RNPA y fechas de vencimientos.\n\nEs importante que se asegure que los productos que expenda estén registrados para minimizar los riesgos de enfermedades: principalmente de productos de alto riesgo (lácteos, conservas, chacinados, fiambres, salsas, helados)."
+        },
+        {
+          "pregunta": "7. Observar el almacenamiento de huevos es adecuado (en un lugar fresco y oscuro):",
+          "respuestas": ["CUMPLE", "NO CUMPLE"],
+          "observacion": null,
+          "negative": "Los huevos pueden poseer naturalmente en su cascara una bacteria llamada salmonella la cual provoca enfermedades en el consumidor si no se manipula adecuadamente estos productos. Se multiplican más rápido si se conservan en lugares donde se concentra el calor."
+        },
+        {
+          "pregunta": "8. Observar que no existan latas de conservas abolladas o envases fisurados:",
+          "respuestas": ["CUMPLE", "NO CUMPLE"],
+          "observacion": null,
+          "negative": "Las latas abolladas no son seguras para el consumo porque tienen un riesgo de contaminación del metal de la lata con el producto que contienen; otros empaques con roturas o fisuras no garantiza que sean productos inocuos y seguros para el consumo."
+        },
+        {
+          "pregunta": "9. Observar la estiba de los alimentos (que no estén directamente en el suelo, que estén separados de los productos químicos y de los de limpieza)",
+          "respuestas": ["CUMPLE", "NO CUMPLE"],
+          "observacion": null,
+          "negative": "Todos los alimentos deben estar mínimamente a 30 cm del suelo para evitar que se contaminen y/o sea más fácil que las plagas (cucarachas y roedores) se ingresen a los alimentos y/o los contaminen."
+        },
+        {
+          "pregunta": "10. Observar el orden, limpieza y condiciones de almacenamientos de los productos para evitar la probabilidad de que existan plagas en el establecimiento",
+          "respuestas": ["CUMPLE", "NO CUMPLE"],
+          "observacion": null,
+          "negative": "LIMPIAR: Es eliminar todo lo que vemos (RESTOS DE COMIDA, TIERRA, PARTICULAS DEL AMIBIENTE, ETC.); lo hacemos cuando barremos, lavamos con esponja y detergente, etc.\n\nDESINFECTAR: es la eliminación de lo que no vemos (eliminación de los microorganismos patógenos que pueden contaminar los alimentos y causar enfermedades en los consumidores). Debemos realizarla con lavandina común (comprar lavandinas rotuladas; siempre debe estar envasada en envases opacos); no usar lavandinas aditivas (son las que tienen perfume, desinfectantes o en gel); leer la etiqueta para preparar adecuadamente la lavandina para que sea efectiva la desinfección (o preparar 10 mililitros de lavandina por 1 litro de agua); el agua con lavandina se debe preparar correctamente y diariamente para que sea efectivo la desinfección; no mezclar lavandina y detergente (es toxico para la persona que lo realiza y la lavandina pierde su poder desinfectante).\n\nSe deben lavar y desinfectar pisos, baños, mesadas, utensilios, máquinas y todos los elementos de cocina.\n\nSe deben lavar, enjuagar; luego desinfectar y volver a enjuagar con abundante agua."
+        },
+        {
+          "pregunta": "11. Poseen bacha para el lavado de manos:",
+          "respuestas": ["SI", "NO"],
+          "observacion": null,
+          "negative": "El lavado de manos con agua potable corriente y segura debe realizarse en todo momento, antes de empezar a manipular alimentos, si utilizo elementos personales (teléfonos, computadora, dinero), luego de salir de los sanitarios (baños), luego de manipular productos de alto riesgo (carnes, huevos).\n\nSiempre lavarse con abundante agua y jabón.\n\nEl alcohol no suplanta el lavado de manos.\n\nEl uso de guantes no excluye al manipulador del lavado de manos."
+        },
+        {
+          "pregunta": "12- Observar las condiciones higiénicas del baño de los trabajadores",
+          "respuestas": ["CONDICIONES APTAS", "CONDICIONES NO APTAS"],
+          "observacion": null,
+          "negative": "Se deberá lavar el baño mínimamente tres veces durante una jornada de trabajo, con las recomendaciones necesarias de limpieza y desinfección.\n\nLIMPIAR: Es eliminar todo lo que vemos (RESTOS DE COMIDA, TIERRA, PARTICULAS DEL AMBIENTE, ETC.); lo hacemos cuando barremos, lavamos con esponja y detergente, etc.\nDESINFECTAR: es la eliminación de lo que no vemos (eliminación de los microorganismos patógenos que pueden contaminar los alimentos y causar enfermedades en los consumidores). Debemos realizarla con lavandina común (comprar lavandinas rotuladas; siempre debe estar envasada en envases opacos); no usar lavandinas aditivas (son las que tienen perfume, desinfectantes o en gel); leer la etiqueta para preparar adecuadamente la lavandina para que sea efectiva la desinfección (o preparar 10 mililitros de lavandina por 1 litro de agua); el agua con lavandina se debe preparar correctamente y diariamente para que sea efectivo la desinfección; no mezclar lavandina y detergente (es toxico para la persona que lo realiza y la lavandina pierde su poder desinfectante).\nSe deben lavar y desinfectar pisos, baños, mesadas, utensilios, máquinas y todos los elementos de cocina.\nSe deben lavar, enjuagar; luego desinfectar y volver a enjuagar con abundante agua."
+        },
+        {
+          "pregunta": "13.Observar que no haya productos que necesiten refrigeración fuera de las heladeras.",
+          "respuestas": ["CUMPLE", "NO CUMPLE"],
+          "observacion": null,
+          "negative": "Si se deja productos que necesitan frio (helados, lácteos, fiambres, hamburguesas, otros productos cárnicos) fuera de las heladeras pondrá en riesgo la seguridad de estos alimentos (deterioro acelerado y hasta perdida de la inocuidad y seguridad para su consumo).\n\nES MUY PELIGROSO DEJAR ALIMENTOS QUE NECESITAN FRIO FUERA DE LA HELADERA.\n\nNO DESENCHUFAR HELADERAS QUE CONTENGAN ALIMENTOS QUE NECESITAN FRIO PARA SU CONSERVACION."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Carnicería - Pollería - Pescadería",
+      "image": "https://res.cloudinary.com/dhu3uii7o/image/upload/v1705427580/RUBROS/CARNICERIA%2C%20POLLERIA%2C%20PESCADERIA.jpg",
+      "statement": "Lo más importante en estos establecimientos es la procedencia de los productos, la forma de conservarlos y manipularlos.",
+      "form": [
+        {
+          "pregunta": "1. Certificado de fumigación del establecimiento al día",
+          "respuestas": ["SI", "NO"],
+          "observacion": null,
+          "negative": "Tener el certificado de fumigación al día es necesario para evitar las plagas (roedores, cucarachas, moscas, etc.) en el local comercial, si se observa que la fumigación contratada no fue efectiva avisar al fumigador para que cambie de químicos o contratar a otra empresa de fumigación; GARANTIZAR QUE LA FUMIGACION SEA EFECTIVA Y CONTRATAR EMPRESAS HABILITADAS."
+        },
+        {
+          "pregunta": "2. ¿Todos manipuladores poseen carnet de manipulación de alimentos ?",
+          "respuestas": ["SI", "NO"],
+          "observacion": "Cantidad de identificaciones vigentes:",
+          "negative": "Contar con el carnet nacional de manipulación de alimentos es obligatorio para toda persona que tenga contacto directo o indirecto con los alimentos durante toda la cadena de producción hasta que llega al consumidor final (de la granja – el mar a la mesa); REALIZAR LA CAPACITACIÓN EN MANIPULACIÓN DE ALIMENTOS MINIMIZA EL RIESGO DE QUE APAREZACAN ENFERMEDADES TRASMITIDA POR LOS ALIMENTOS. ALIMENTOS = SALUD."
+        },
+        {
+          "pregunta": "3. ¿Todos manipuladores que elabran la comida tienen la vestimenta adecuada (delantal/chaqueta, gorra/cofia, pantalón largo) y el cabello recogido en caso de tener el cabello largo?",
+          "respuestas": ["SI", "NO"],
+          "observacion": null,
+          "negative": "Contar con la vestimenta adecuada cada vez que manipulamos directamente un alimento es necesario para evitar una contaminación cruzada involuntaria como la caída del cabello en los alimentos. ES INDISPENSABLE Y OBLIGATORIO COLOCARSE EL UNIFORME DE TRABAJO CADA VEZ QUE MANIPULAMOS ALIMENTOS POR HIGUIENE PERSONAL Y DAR SEGURIDAD AL CONSUMIDOR"
+        },
+        {
+          "pregunta": "4. Solicitar la procedencia sellos de SENASA de los productos cárnicos (Ganado Vacuno, Porcino, Caprino, etc.):",
+          "respuestas": ["CUMPLE", "NO CUMPLE", "NO EXPENDEN CARNE"],
+          "observacion": null,
+          "negative": "Es obligatorio que todos los tipos de carnes sean faenados en mataderos habilitados; asegurando la sanidad de los animales.\n\n Los animales faenados, autorizados para su venta y consumo cuentan con un sello de SENASA; caso contrario serán decomisados por las autoridades competentes."
+        },
+        {
+          "pregunta": "5. Solicitar la procedencia de los pollos faenados en el día:",
+          "respuestas": [
+            "CUMPLE",
+            "NO CUMPLE",
+            "NO EXPENDEN POLLOS FANEADOS EN EL DÍA"
+          ],
+          "observacion": null,
+          "negative": "Para vender pollos faenados en el día, los mismos deben provenir de un establecimiento habilitado; caso contrario serán decomisados por las autoridades competentes."
+        },
+        {
+          "pregunta": "6. Observar las fechas de vencimientos y registros de los pollos congelados",
+          "respuestas": ["CUMPLE", "NO CUMPLE", "NO EXPENDEN POLLOS"],
+          "observacion": null,
+          "negative": "Para vender pollos faenados, deben provenir de un establecimiento habilitado; caso contrario serán decomisados por las autoridades competentes."
+        },
+        {
+          "pregunta": "7. Observar las fechas de vencimientos y registros de los productos de mar (pescados, moluscos y crustáceos):",
+          "respuestas": ["CUMPLE", "NO CUMPLE", "NO EXPENDEN PRODUCTOS DE MAR"],
+          "observacion": null,
+          "negative": "Para vender pescados y/o productos del mar, deben provenir de un establecimiento habilitado y en las condiciones adecuadas de transporte y conservación; caso contrario serán decomisados por las autoridades competentes."
+        },
+        {
+          "pregunta": "8. Registro de temperaturas de heladeras mostrador",
+          "respuestas": ["RANGO DE 4 °C - 8 °C", "POR ENCIMA DE 8 °C"],
+          "observacion": null,
+          "negative": "La heladera es un método de conservación.\n\n Se deben conservar principalmente los productos de alto riesgo (carnes, lácteos, huevos, aderezos, comidas preparadas), debido a que los microorganismos patógenos (son los que causan enfermedades) se pueden desarrollar principalmente en estos productos muy rápidamente a temperatura ambiente."
+        },
+        {
+          "pregunta": "9. Observar que no estén en la misma heladera mostrador distintos productos y subproductos de carne, pescados y pollos:",
+          "respuestas": ["CUMPLE", "NO CUMPLE"],
+          "observacion": "Observaciones:",
+          "negative": "En una misma heladera o frezzer no se pueden mezclar distintos tipos de carne (por ejemplo, vaca chancho, pescado, pollo) debido a que puede haber contaminaciones cruzadas; se pueden colocar en una misma heladera mostrador siempre que las separe por ejemplo con una placa plástica que sirva de separador.\n\n Tampoco se puede mezclar carnes, subproductos y/o verduras en una misma heladera."
+        },
+        {
+          "pregunta": "10. Observar que las heladeras exhibidoras no posean iluminación con luz violeta, rosa:",
+          "respuestas": ["CUMPLE", "NO CUMPLE"],
+          "observacion": null,
+          "negative": "Las heladeras deberán tener una iluminación lo más parecida a la luz natural. Luces violetas o rosas darán una falsa sensación de frescura y color a los productos cárnicos.\n\n Estas luces están prohibidas para su uso por Código Alimentario Argentino."
+        },
+        {
+          "pregunta": "11. Observar que no tengan carne picada expuestas o hamburguesas de elaboración propias exhibidas en las heladeras mostrador.",
+          "respuestas": ["CUMPLE", "NO CUMPLE"],
+          "observacion": null,
+          "negative": "La carne picada o molida se debe picar o moler a la vista del consumidor. Queda totalmente prohibido exponer la carne picada o conservarla a temperaturas de refrigeración.\n\n Si el inspector observa carnes picada o molida y/o hamburguesas en las heladeras mostrador procederá a decomisar las misma y estará facultado a realizar las sanciones necesarias al establecimiento."
+        },
+        {
+          "pregunta": "12. Observar que frezzer no tengan distintos productos y subproductos cárnicos mezclados:",
+          "respuestas": ["CUMPLE", "NO CUMPLE"],
+          "observacion": null,
+          "negative": "En una misma heladera o frezzer no se pueden mezclar distintos tipos de carne (por ejemplo, vaca chancho, pescado, pollo) debido a que puede haber contaminaciones cruzadas.\n\n Tampoco se puede mezclar carnes, subproductos y/o verduras en una misma heladera."
+        },
+        {
+          "pregunta": "13. Observar que si se elabora chorizos u otros chacinados sea bajo las condiciones adecuadas:",
+          "respuestas": ["CUMPLE", "NO CUMPLE"],
+          "observacion": null,
+          "negative": "Si se preparan chacinados por ejemplo chorizos en un establecimiento de carnicería deberá cumplir con los requisitos necesarios; debe contar con un espacio aparte del lugar de expendio, contar con las máquinas y utensilios adecuados limpios y desinfectados, el manipulador debe estar con el uniforme necesario; realizar la producción respetando las cantidades necesarias y suficientes de la sal de cura.\n\n Si el inspector observa que las condiciones de elaboración no son las adecuadas puede proceder a decomisar las misma y estará facultado a realizar las sanciones necesarias al establecimiento."
+        },
+        {
+          "pregunta": "14. En caso de poseer cámara de frio registrar temperatura",
+          "respuestas": null,
+          "observacion": "Ingrese la temperatura en ºC:"
+        },
+        {
+          "pregunta": "15. Orden y condiciones de almacenamiento de los productos en la cámara:",
+          "respuestas": ["CONDICIONES APTAS", "CONDICIONES NO APTAS"],
+          "observacion": null,
+          "puntos": [
+            "Cortes de carnes colgados, embolsados y rotulados",
+            "Que no haya carne picada",
+            "Que no haya carne en envases no aptos",
+            "Que no se encuentren en el suelo",
+            "Que no se almacene otros tipos de alimento como verduras o preparados para milanesas"
+          ],
+          "negative": "El orden, la higiene y la conservación en la cámara debe ser la adecuada; no puedo tener cortes cárnicos en el piso, no puedo apilar cajones de carnes sin embolsar uno arriba de otro, no puedo mezclar distintos tipos de carne, no puedo contener otro tipo de alimentos en una cámara de carne.\n\nCUIDADO CON LOS PREPARADOS PARA MILANESAS QUE SE GUARDAN EN HELADERA POR DÍAS O DE LA MAÑANA A LA TARDE EN MESES DE CALOR PARA FUTURAS PREPARACIONES Y USAN HUEVO CRUDO Y CASCADO POR EL OPERADOR, LECHE, ETC."
+        },
+        {
+          "pregunta": "16. Preparacón de milanesas o subproductos en condiciones adecuadas",
+          "respuestas": ["CONDICIONES APTAS", "CONDICIONES NO APTAS"],
+          "observacion": null,
+          "negative": "Si se preparan milanesas y otros subproductos en un establecimiento de carnicería deberá cumplir con los requisitos necesarios; debe contar con un espacio aparte del lugar de expendio, contar con las máquinas y utensilios adecuados limpios y desinfectados, el manipulador debe estar con el uniforme necesario. \n\n Si el inspector observa que las condiciones de elaboración no son las adecuadas puede proceder a decomisar las misma y estará facultado a realizar las sanciones necesarias al establecimiento."
+        },
+        {
+          "pregunta": "17. Observar la higiene de las maquinas (ej.: las picadoras de carne, sierras, etc.)",
+          "respuestas": ["CONDICIONES APTAS", "CONDICIONES NO APTAS"],
+          "observacion": null,
+          "negative": "La higiene, limpieza y desinfección de las máquinas y utensilios debe realizarse mínimamente 3 veces durante la jornada de trabajo.\n\nLA CARNE Y SUBPRODUCTOS SON DE ALTO RIESGO ALIMENTARIO DEBIDO A QUE ALBERGAN BACTERIAS QUE PUEDEN SER PATÓGENAS (CAUSAN ENFERMEDAD).\n\nLIMPIAR: Es eliminar todo lo que vemos (RESTOS DE COMIDA, TIERRA, PARTÍCULAS DEL AMBIENTE, ETC.); lo hacemos cuando barremos, lavamos con esponja y detergente, etc.\n\nDESINFECTAR: es la eliminación de lo que no vemos (eliminación de los microorganismos patógenos que pueden contaminar los alimentos y causar enfermedades en los consumidores). Debemos realizarla con lavandina común (comprar lavandinas rotuladas; siempre debe estar envasada en envases opacos); no usar lavandinas aditivas (son las que tienen perfume, desinfectantes o en gel); leer la etiqueta para preparar adecuadamente la lavandina para que sea efectiva la desinfección (o preparar 10 mililitros de lavandina por 1 litro de agua); el agua con lavandina se debe preparar correctamente y diariamente para que sea efectivo la desinfección; no mezclar lavandina y detergente (es tóxico para la persona que lo realiza y la lavandina pierde su poder desinfectante).\n\nSe deben lavar y desinfectar pisos, baños, mesadas, utensilios, máquinas y todos los elementos de cocina.\n\nSe deben lavar, enjuagar; luego desinfectar y volver a enjuagar con abundante agua."
+        },
+        {
+          "pregunta": "18. Posee bachas para lavado de alimentos y otra para lavado de manos y utensilios",
+          "respuestas": ["SI", "NO"],
+          "observacion": null,
+          "negative": "Cuando manipulamos alimentos debemos tener garantizada el agua potable y corriente para lavarse constantemente las manos y contar con otro espacio adecuado para poder lavar los utensilios.\n\nSIEMPRE SE DEBE UTILIZAR AGUA POTABLE CORRIENTE Y SEGURA PARA LAVARSE LAS MANOS, PARA REGAR PLANTACIONES DE FRUTAS Y VERDURAS, PARA LAVAR TODOS LOS ELEMENTOS DE COCINA, PARA CONSUMIR Y COCINAR."
+        },
+        {
+          "pregunta": "19. ¿Posee mesadas de acero inoxidable?",
+          "respuestas": ["SI", "NO"],
+          "observacion": "Observaciones:",
+          "negative": "El acero inoxidable en la cocina es indispensable debido a que no se adhieren los microorganismos, ni la suciedad; siendo fácil y efectiva la limpieza y desinfección."
+        },
+        {
+          "pregunta": "20. ¿Poseen tachos de basura con bolsa, pedal y tapa?",
+          "respuestas": ["SI", "NO"],
+          "observacion": null,
+          "negative": "Contar con tachos de basura con bolsa, pedal y tapa evita la contaminación cruzada, ya que la basura de las cocinas es mayormente materia orgánica donde los microorganismos viven y pueden causar contaminaciones cruzadas por ejemplo al levantar la tapa para tirar la basura y seguir manipulando alimentos sin lavarse las manos.\n\n NO DEJAR LA BASURA EN EL LUGAR DE COCINA CUANDO TERMINO LA JORNADA."
+        },
+        {
+          "pregunta": "21. Observar por unos minutos a los manipuladores de alimentos ¿se lavan las manos adecuadamente?",
+          "respuestas": ["SI", "NO"],
+          "observacion": null,
+          "negative": "El lavado de manos con agua potable corriente y segura debe realizarse en todo momento, antes de empezar a manipular alimentos, si utilizo elementos personales (teléfonos, computadora, dinero), luego de salir de los sanitarios (baños), luego de manipular productos de alto riesgo (carnes, huevos).\n\nSiempre lavarse con abundante agua y jabón.\n\nEl alcohol no suplanta el lavado de manos.\n\nEl uso de guantes no excluye al manipulador del lavado de manos."
+        },
+        {
+          "pregunta": "22. Observar las condiciones higiénicas del baño el de los trabajadores.",
+          "respuestas": ["CONDICIONES APTAS", "CONDICIONES NO APTAS"],
+          "observacion": null,
+          "negative": "Se deberá lavar el baño mínimamente tres veces durante una jornada de trabajo, con las recomendaciones necesarias de limpieza y desinfección.\n\nLIMPIAR: Es eliminar todo lo que vemos (RESTOS DE COMIDA, TIERRA, PARTICULAS DEL AMIBIENTE, ETC.); lo hacemos cuando barremos, lavamos con esponja y detergente, etc.\n\nDESINFECTAR: es la eliminación de lo que no vemos (eliminación de los microorganismos patógenos que pueden contaminar los alimentos y causar enfermedades en los consumidores). Debemos realizarla con lavandina común (comprar lavandinas rotuladas; siempre debe estar envasada en envases opacos); no usar lavandinas aditivas (son las que tienen perfume, desinfectantes o en gel); leer la etiqueta para preparar adecuadamente la lavandina para que sea efectiva la desinfección (o preparar 10 mililitros de lavandina por 1 litro de agua); el agua con lavandina se debe preparar correctamente y diariamente para que sea efectivo la desinfección; no mezclar lavandina y detergente (es toxico para la persona que lo realiza y la lavandina pierde su poder desinfectante).\n\nSe deben lavar y desinfectar pisos, baños, mesadas, utensilios, máquinas y todos los elementos de cocina.\n\nSe deben lavar, enjuagar; luego desinfectar y volver a enjuagar con abundante agua."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Verdulería",
+      "image": "https://res.cloudinary.com/dhu3uii7o/image/upload/v1705427654/RUBROS/VERDULERIA.jpg",
+      "statement": "Es importante observar el almacenamiento y estiba de frutas y verduras.",
+      "form": [
+        {
+          "pregunta": "1. Certificado de fumigación del establecimiento al día",
+          "respuestas": ["SI", "NO"],
+          "observacion": null,
+          "negative": "Tener el certificado de fumigación al día es necesario para evitar las plagas (roedores, cucarachas, moscas, etc.) en el local comercial, si se observa que la fumigación contratada no fue efectiva avisar al fumigador para que cambie de químicos o contratar a otra empresa de fumigación; GARANTIZAR QUE LA FUMIGACION SEA EFECTIVA Y CONTRATAR EMPRESAS HABILITADAS."
+        },
+        {
+          "pregunta": "2. ¿Todos manipuladores poseen carnet de manipulación de alimentos ?",
+          "respuestas": ["SI", "NO"],
+          "observacion": "Cantidad de identificaciones vigentes:",
+          "negative": "Contar con carnet nacional de manipulación de alimentos es obligatorio para toda persona que tenga contacto directo o indirecto con los alimentos durante toda la cadena de producción hasta que llega al consumidor final (de la granja – el mar a la mesa); REALIZAR LA CAPACITACION EN MANIPULACION DE ALIMENTOS MINIMIZA EL RIESGO DE QUE APAREZACAN ENFERMEDADES TRASMITIDA POR LOS ALIMENTOS. ALIMENTOS =SALUD."
+        },
+        {
+          "pregunta": "3. Observar que las frutas y verduras se encuentren almacenadas en condiciones adecuadas (no estén en el suelo ni en depósitos con pisos de tierra o donde se almacena maquinas o chatarras)",
+          "respuestas": ["CUMPLE", "NO CUMPLE"],
+          "observacion": null,
+          "negative": "Si tenemos las frutas y verduras en un depósito, el mismo debe estar en condiciones higiénicas, los alimentos no pueden estar directamente en el piso, y no puedo utilizar ese depósito para almacenar otro tipo de productos, maquinarias o productos de limpieza o químicos."
+        },
+        {
+          "pregunta": "4. Observar que los cajones de exposición solo contengan verduras o frutas y no contengan otro tipo de productos por ejemplo botellas",
+          "respuestas": ["CUMPLE", "NO CUMPLE"],
+          "observacion": null
+        },
+        {
+          "pregunta": "5. Conocer la procedencia de las frutas y verduras",
+          "respuestas": null,
+          "observacion": "Observaciones:"
+        },
+        {
+          "pregunta": "6. Observar el orden y limpieza del espacio de venta",
+          "respuestas": ["CUMPLE", "NO CUMPLE"],
+          "observacion": null,
+          "negative": "LIMPIAR: Es eliminar todo lo que vemos (RESTOS DE COMIDA, TIERRA, PARTICULAS DEL AMBIENTE, ETC.); lo hacemos cuando barremos, lavamos con esponja y detergente, etc.\n\nDESINFECTAR: es la eliminación de lo que no vemos (eliminación de los microorganismos patógenos que pueden contaminar los alimentos y causar enfermedades en los consumidores). Debemos realizarla con lavandina común (comprar lavandinas rotuladas; siempre debe estar envasada en envases opacos); no usar lavandinas aditivas (son las que tienen perfume, desinfectantes o en gel); leer la etiqueta para preparar adecuadamente la lavandina para que sea efectiva la desinfección (o preparar 10 mililitros de lavandina por 1 litro de agua); el agua con lavandina se debe preparar correctamente y diariamente para que sea efectivo la desinfección; no mezclar lavandina y detergente (es toxico para la persona que lo realiza y la lavandina pierde su poder desinfectante).\n\nSe deben lavar y desinfectar pisos, baños, mesadas, utensilios, máquinas y todos los elementos de cocina.\n\nSe deben lavar, enjuagar; luego desinfectar y volver a enjuagar con abundante agua."
+        },
+        {
+          "pregunta": "7. Observar si la exposición de los productos es adecuada (observar la higiene, si se expenden en un establecimiento o al aire libre)",
+          "respuestas": ["CUMPLE", "NO CUMPLE"],
+          "observacion": null,
+          "negative": "Deben expenderse en un espacio limpio y desinfectado contenidos en cajones a 30cm. Del suelo; los productos deben estar resguardado del sol; no pueden expenderse en pisos de tierra; evitar los espacios de mucha circulación de personas, vehículos y/o animales."
+        },
+        {
+          "pregunta": "8. Observar si realiza la correcta separación y disposición de desechos (frutas y verduras en mal estado o podridas)",
+          "respuestas": ["CUMPLE", "NO CUMPLE"],
+          "observacion": null,
+          "negative": "Las frutas y verduras en mal estado o podridas se deben desechar diariamente, no dejar estos productos en los depósitos o lugar de expendio debido a que atrae moscas, mosquitos y otras plagas."
+        },
+        {
+          "pregunta": "9. Posee bachas para lavado de alimentos y otra para lavado de manos y utensilios",
+          "respuestas": ["SI", "NO"],
+          "observacion": null,
+          "negative": "Cuando manipulamos alimentos debemos tener garantizada el agua potable y corriente para lavarse constantemente las manos y contar con otro espacio adecuado para poder lavar los utensilios.\n\nSIEMPRE SE DEBE UTILIZAR AGUA POTABLE CORRIENTE Y SEGURA PARA LAVARSE LAS MANOS, PARA REGAR PLANTACIONES DE FRUTAS Y VERDURAS, PARA LAVAR TODOS LOS ELEMENTOS DE COCINA, PARA CONSUMIR Y COCINAR."
+        },
+        {
+          "pregunta": "10. Observar por unos minutos a los manipuladores de alimentos ¿se lavan las manos adecuadamente?",
+          "respuestas": ["SI", "NO"],
+          "observacion": null,
+          "negative": "El lavado de manos con agua potable corriente y segura debe realizarse en todo momento, antes de empezar a manipular alimentos, si utilizo elementos personales (teléfonos, computadora, dinero), luego de salir de los sanitarios (baños), luego de manipular productos de alto riesgo (carnes, huevos).\n\nSiempre lavarse con abundante agua y jabón.\n\nEl alcohol no suplanta el lavado de manos.\n\nEl uso de guantes no excluye al manipulador del lavado de manos."
+        },
+        {
+          "pregunta": "11. Observar que no tengan carne picada expuestas o hamburguesas de elaboración propias exhibidas en las heladeras mostrador.",
+          "respuestas": ["CONDICIONES APTAS", "CONDICIONES NO APTAS"],
+          "observacion": null,
+          "negative": "Se deberá lavar el baño mínimamente tres veces durante una jornada de trabajo, con las recomendaciones necesarias de limpieza y desinfección.\n\nLIMPIAR: Es eliminar todo lo que vemos (RESTOS DE COMIDA, TIERRA, PARTICULAS DEL AMIBIENTE, ETC.); lo hacemos cuando barremos, lavamos con esponja y detergente, etc.\nDESINFECTAR: es la eliminación de lo que no vemos (eliminación de los microorganismos patógenos que pueden contaminar los alimentos y causar enfermedades en los consumidores). Debemos realizarla con lavandina común (comprar lavandinas rotuladas; siempre debe estar envasada en envases opacos); no usar lavandinas aditivas (son las que tienen perfume, desinfectantes o en gel); leer la etiqueta para preparar adecuadamente la lavandina para que sea efectiva la desinfección (o preparar 10 mililitros de lavandina por 1 litro de agua); el agua con lavandina se debe preparar correctamente y diariamente para que sea efectivo la desinfección; no mezclar lavandina y detergente (es toxico para la persona que lo realiza y la lavandina pierde su poder desinfectante).\n\nSe deben lavar y desinfectar pisos, baños, mesadas, utensilios, máquinas y todos los elementos de cocina.\n\nSe deben lavar, enjuagar; luego desinfectar y volver a enjuagar con abundante agua."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Panadería",
+      "image": "https://res.cloudinary.com/dhu3uii7o/image/upload/v1705427795/RUBROS/Panaderia.jpg",
+      "statement": "Lo más importante es observar las condiciones de elaboración, conservación de los productos y la procedencia de la materia prima.",
+      "form": [
+        {
+          "pregunta": "1. Certificado de fumigación del establecimiento al día",
+          "respuestas": ["SI", "NO"],
+          "observacion": null,
+          "negative": "Tener el certificado de fumigación al día es necesario para evitar las plagas (roedores, cucarachas, moscas, etc.) en el local comercial, si se observa que la fumigación contratada no fue efectiva avisar al fumigador para que cambie de químicos o contratar a otra empresa de fumigación; GARANTIZAR QUE LA FUMIGACION SEA EFECTIVA Y CONTRATAR EMPRESAS HABILITADAS."
+        },
+        {
+          "pregunta": "2. ¿Todos manipuladores poseen carnet de manipulación de alimentos ?",
+          "respuestas": ["SI", "NO"],
+          "observacion": "Cantidad de identificaciones vigentes:",
+          "negative": "Contar con el carnet nacional de manipulación de alimentos es obligatorio para toda persona que tenga contacto directo o indirecto con los alimentos durante toda la cadena de producción hasta que llega al consumidor final (de la granja – el mar a la mesa); REALIZAR LA CAPACITACIÓN EN MANIPULACIÓN DE ALIMENTOS MINIMIZA EL RIESGO DE QUE APAREZACAN ENFERMEDADES TRASMITIDAS POR LOS ALIMENTOS. ALIMENTOS = SALUD."
+        },
+        {
+          "pregunta": "3. Los manipuladores que elaboran la comida tienen la vestimenta adecuada (delantal/chaqueta, gorra/cofia, pantalón largo)",
+          "respuestas": ["SI", "NO"],
+          "observacion": null,
+          "negative": "Contar con la vestimenta adecuada cada vez que manipulamos directamente un alimento es necesario para evitar una contaminación cruzada involuntaria como la caída del cabello en los alimentos. ES INDISPENSABLE Y OBLIGATORIO COLOCARSE EL UNIFORME DE TRABAJO CADA VEZ QUE MANIPULAMOS ALIMENTOS POR HIGIENE PERSONAL Y DAR SEGURIDAD AL CONSUMIDOR."
+        },
+        {
+          "pregunta": "4. Observar los registros, fechas de vencimientos de harinas, materias primas e insumos",
+          "respuestas": ["POSEE LOS REGISTROS NECESARIOS", "NO LOS POSEE"],
+          "observacion": null,
+          "negative": "Todos los alimentos que se elaboran y expenden en nuestro país deben estar registrados para saber su procedencia y que es un establecimiento habilitado para elaborar esos tipos de alimentos.\n\n Un producto registrado posee un N° de RNE y un N° de RNPA, junto con fechas de vencimiento.\n\n Es importante asegurarse de que los productos que se expenden estén registrados para minimizar los riesgos de enfermedades, especialmente en productos de alto riesgo como lácteos, conservas, chacinados, fiambres, salsas y helados."
+        },
+        {
+          "pregunta": "5. Observar si hay detectar el uso de bromatos (prohibido)",
+          "respuestas": ["CUMPLE", "NO CUMPLE"],
+          "observacion": null,
+          "negative": "El uso de bromatos está prohibido debido a ser un compuesto tóxico. El inspector tiene la facultad de decomisar y tomar las medidas sanitarias necesarias para resguardar la salud pública."
+        },
+        {
+          "pregunta": "6. Observar que la estiba de harinas, materia prima e insumos sea adecuada",
+          "respuestas": ["CUMPLE", "NO CUMPLE"],
+          "observacion": null,
+          "negative": "Las harinas deben estar estibadas a 30 cm. del piso, en forma vertical.\n\n Los insumos deben colocarse en estantes o heladeras según corresponda. Los lácteos, grasas, mantecas y margarinas deben almacenarse en heladeras.\n\n Los huevos deben almacenarse en un lugar fresco y oscuro."
+        },
+        {
+          "pregunta": "7. Registro de la temperatura de las heladeras",
+          "respuestas": ["RANGO DE 4 °C - 8 °C", "POR ENCIMA DE 8 °C"],
+          "observacion": null,
+          "negative": "La heladera es un método de conservación.\n\n Se deben conservar principalmente los productos de alto riesgo (carnes, lácteos, huevos, aderezos, comidas preparadas), ya que los microorganismos patógenos pueden desarrollarse rápidamente en estos productos a temperatura ambiente."
+        },
+        {
+          "pregunta": "8. Observar la higiene de las maquinas, hornos, amasadoras, cortadoras",
+          "respuestas": ["CUMPLE", "NO CUMPLE"],
+          "observacion": null,
+          "negative": "LIMPIAR: Es eliminar todo lo que vemos (RESTOS DE COMIDA, TIERRA, PARTICULAS DEL AMBIENTE, ETC.); lo hacemos cuando barremos, lavamos con esponja y detergente, etc.\n\nDESINFECTAR: es la eliminación de lo que no vemos (eliminación de los microorganismos patógenos que pueden contaminar los alimentos y causar enfermedades en los consumidores). Debemos realizarla con lavandina común (comprar lavandinas rotuladas; siempre debe estar envasada en envases opacos); no usar lavandinas aditivas (son las que tienen perfume, desinfectantes o en gel); leer la etiqueta para preparar adecuadamente la lavandina para que sea efectiva la desinfección (o preparar 10 mililitros de lavandina por 1 litro de agua); el agua con lavandina se debe preparar correctamente y diariamente para que sea efectivo la desinfección; no mezclar lavandina y detergente (es toxico para la persona que lo realiza y la lavandina pierde su poder desinfectante).\n\nSe deben lavar y desinfectar pisos, baños, mesadas, utensilios, máquinas y todos los elementos de cocina.\n\nSe deben lavar, enjuagar; luego desinfectar y volver a enjuagar con abundante agua."
+        },
+        {
+          "pregunta": "9. Observar si los utensilios y demás elementos de cocina (ollas, sartenes, batidoras, procesadoras, tuppers, asaderas) son aptos y se encuentran en condiciones higiénicas adecuadas",
+          "respuestas": ["CUMPLE", "NO CUMPLE"],
+          "observacion": null,
+          "negative": "LIMPIAR: Es eliminar todo lo que vemos (RESTOS DE COMIDA, TIERRA, PARTICULAS DEL AMBIENTE, ETC.); lo hacemos cuando barremos, lavamos con esponja y detergente, etc.\n\nDESINFECTAR: es la eliminación de lo que no vemos (eliminación de los microorganismos patógenos que pueden contaminar los alimentos y causar enfermedades en los consumidores). Debemos realizarla con lavandina común (comprar lavandinas rotuladas; siempre debe estar envasada en envases opacos); no usar lavandinas aditivas (son las que tienen perfume, desinfectantes o en gel); leer la etiqueta para preparar adecuadamente la lavandina para que sea efectiva la desinfección (o preparar 10 mililitros de lavandina por 1 litro de agua); el agua con lavandina se debe preparar correctamente y diariamente para que sea efectivo la desinfección; no mezclar lavandina y detergente (es toxico para la persona que lo realiza y la lavandina pierde su poder desinfectante).\n\nSe deben lavar y desinfectar pisos, baños, mesadas, utensilios, máquinas y todos los elementos de cocina.\n\nSe deben lavar, enjuagar; luego desinfectar y volver a enjuagar con abundante agua."
+        },
+        {
+          "pregunta": "10. ¿Posee bachas para lavado de alimentos y otra para lavado de manos y utensilios?",
+          "respuestas": ["SI", "NO"],
+          "observacion": null,
+          "negative": "Cuando manipulamos alimentos debemos tener garantizada el agua potable y corriente para lavarse constantemente las manos y contar con otro espacio adecuado para poder lavar los utensilios.\n\nSIEMPRE SE DEBE UTILIZAR AGUA POTABLE CORRIENTE Y SEGURA PARA LAVARSE LAS MANOS, PARA REGAR PLANTACIONES DE FRUTAS Y VERDURAS, PARA LAVAR TODOS LOS ELEMENTOS DE COCINA, PARA CONSUMIR Y COCINAR."
+        },
+        {
+          "pregunta": "11. ¿Posee mesadas de acero inoxidable?",
+          "respuestas": ["SI", "NO"],
+          "observacion": "Observaciones:",
+          "negative": "El acero inoxidable en la cocina es indispensable debido a que no se adhieren los microrganismos, ni la suciedad; siendo fácil y efectiva la limpieza y desinfección."
+        },
+        {
+          "pregunta": "12. Poseen tachos de basura con bolsa pedal y tapa:",
+          "respuestas": ["SI", "NO"],
+          "observacion": null,
+          "negative": "Contar con tachos de basura con bolsa, pedal y tapa evita la contaminación cruzada, ya que la basura de las cocinas es mayormente materia orgánica donde los microorganismos viven y pueden causar contaminaciones cruzadas por ejemplo al levantar la tapa para tirar la basura y seguir manipulando alimentos sin lavarse las manos.\n\nNO DEJAR LA BASURA EN EL LUGAR DE COCINA CUANDO TERMINO LA JORNADA."
+        },
+        {
+          "pregunta": "13. Observar por unos minutos a los manipuladores de alimentos ¿se lavan las manos adecuadamente?",
+          "respuestas": ["SI", "NO"],
+          "observacion": null,
+          "negative": "El lavado de manos con agua potable corriente y segura debe realizarse en todo momento, antes de empezar a manipular alimentos, si utilizo elementos personales (teléfonos, computadora, dinero), luego de salir de los sanitarios (baños), luego de manipular productos de alto riesgo (carnes, huevos).\n\nSiempre lavarse con abundante agua y jabón.\n\nEl alcohol no suplanta el lavado de manos.\n\nEl uso de guantes no excluye al manipulador del lavado de manos."
+        },
+        {
+          "pregunta": "14. Observar las condiciones higiénicas del baño de los comensales y el de los trabajadores.",
+          "respuestas": ["CONDICIONES APTAS", "CONDICIONES NO APTAS"],
+          "observacion": null,
+          "negative": "LIMPIAR: Es eliminar todo lo que vemos (RESTOS DE COMIDA, TIERRA, PARTICULAS DEL AMBIENTE, ETC.); lo hacemos cuando barremos, lavamos con esponja y detergente, etc.\n\nDESINFECTAR: es la eliminación de lo que no vemos (eliminación de los microorganismos patógenos que pueden contaminar los alimentos y causar enfermedades en los consumidores). Debemos realizarla con lavandina común (comprar lavandinas rotuladas; siempre debe estar envasada en envases opacos); no usar lavandinas aditivas (son las que tienen perfume, desinfectantes o en gel); leer la etiqueta para preparar adecuadamente la lavandina para que sea efectiva la desinfección (o preparar 10 mililitros de lavandina por 1 litro de agua); el agua con lavandina se debe preparar correctamente y diariamente para que sea efectivo la desinfección; no mezclar lavandina y detergente (es toxico para la persona que lo realiza y la lavandina pierde su poder desinfectante).\n\nSe deben lavar y desinfectar pisos, baños, mesadas, utensilios, máquinas y todos los elementos de cocina.\n\nSe deben lavar, enjuagar; luego desinfectar y volver a enjuagar con abundante agua."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Vendedores Ambulantes",
+      "image": "https://res.cloudinary.com/dhu3uii7o/image/upload/v1705427856/RUBROS/VENDEDORES%20AMBULANTES.png",
+      "statement": null,
+      "form": [
+        {
+          "pregunta": "1. ¿Todos manipuladores poseen carnet de manipulación de alimentos ?",
+          "respuestas": ["SI", "NO"],
+          "observacion": "Cantidad de identificaciones vigentes:",
+          "negative": "Contar con el carnet nacional de manipulación de alimentos es obligatorio para toda persona que tenga contacto directo o indirecto con los alimentos durante toda la cadena de producción hasta que llega al consumidor final (de la granja – el mar a la mesa); REALIZAR LA CAPACITACIÓN EN MANIPULACIÓN DE ALIMENTOS MINIMIZA EL RIESGO DE QUE APAREZACAN ENFERMEDADES TRASMITIDAS POR LOS ALIMENTOS. ALIMENTOS = SALUD."
+        },
+        {
+          "pregunta": "2. Observar la higiene del lugar asignado",
+          "respuestas": ["CONDICIONES APTAS", "CONDICIONES NO APTAS"],
+          "observacion": null,
+          "negative": "LIMPIAR: Es eliminar todo lo que vemos (RESTOS DE COMIDA, TIERRA, PARTICULAS DEL AMBIENTE, ETC.); lo hacemos cuando barremos, lavamos con esponja y detergente, etc.\n\nDESINFECTAR: es la eliminación de lo que no vemos (eliminación de los microorganismos patógenos que pueden contaminar los alimentos y causar enfermedades en los consumidores). Debemos realizarla con lavandina común (comprar lavandinas rotuladas; siempre debe estar envasada en envases opacos); no usar lavandinas aditivas (son las que tienen perfume, desinfectantes o en gel); leer la etiqueta para preparar adecuadamente la lavandina para que sea efectiva la desinfección (o preparar 10 mililitros de lavandina por 1 litro de agua); el agua con lavandina se debe preparar correctamente y diariamente para que sea efectivo la desinfección; no mezclar lavandina y detergente (es toxico para la persona que lo realiza y la lavandina pierde su poder desinfectante).\n\nSe deben lavar y desinfectar pisos, baños, mesadas, utensilios, máquinas y todos los elementos de cocina.\n\nSe deben lavar, enjuagar; luego desinfectar y volver a enjuagar con abundante agua."
+        },
+        {
+          "pregunta": "3. Los alimentos se encuentran transportados en condiciones adecuadas (conservadoras, tuppers, bolsas)",
+          "respuestas": ["SI", "NO"],
+          "observacion": null,
+          "negative": "Los alimentos deben ser transportados y conservados hasta su venta en las condiciones adecuadas para evitar que se contaminen y causen enfermedades.\n\nLas carnes crudas, aderezos, salchichas se deben transportar embolsadas en conservadoras con hielo.\n\nLas verduras deben lavarse y desinfectarse antes de ir al lugar de venta, en lo posible cortarlas y llevarlas en tuppers adecuados y llevar pinzas.\n\nLos productos preparados con cremas, fiambres y/o aderezos deben almacenarse en conservadoras hasta ser entregados al consumidor."
+        },
+        {
+          "pregunta": "4. Observar los registros y fechas de vencimientos de los productos",
+          "respuestas": ["CONDICIONES APTAS", "CONDICIONES NO APTAS"],
+          "observacion": null,
+          "negative": "Todos los alimentos que se elaboran y expenden en nuestro país deben estar registrados para saber su procedencia, y que es un establecimiento habilitado para elaborar ese/esos tipos de alimentos.\n\nUn producto registrado posee un N° de RNE y un N° de RNPA y fechas de vencimientos.\n\nEs importante que se asegure que los productos que expenda estén registrados para minimizar los riesgos de enfermedades."
+        },
+        {
+          "pregunta": "5. los manipuladores que elaboran la comida tienen la vestimenta adecuada (delantal/chaqueta, gorra/cofia, pantalón largo):",
+          "respuestas": ["SI", "NO"],
+          "observacion": null,
+          "negative": "Contar con la vestimenta adecuada cada vez que manipulamos directamente un alimento es necesario para evitar una contaminación cruzada involuntaria como la caída del cabello en los alimentos. ES INDISPENSABLE Y OBLIGATORIO COLOCARSE EL UNIFORME DE TRABAJO CADA VEZ QUE MANIPULAMOS ALIMENTOS POR HIGIENE PERSONAL Y DAR SEGURIDAD AL CONSUMIDOR."
+        },
+        {
+          "pregunta": "6. Poseen dispenser con agua potable para lavado de manos",
+          "respuestas": ["SI", "NO"],
+          "observacion": null,
+          "negative": "El lavado de manos con agua potable corriente y segura debe realizarse en todo momento, antes de empezar a manipular alimentos, si utilizo elementos personales (teléfonos, computadora, dinero), luego de salir de los sanitarios (baños), luego de manipular productos de alto riesgo (carnes, huevos).\n\n Siempre lavarse con abundante agua y jabón.\n\n El alcohol no suplanta el lavado de manos.\n\n El uso de guantes no excluye al manipulador del lavado de manos."
+        },
+        {
+          "pregunta": "7. ¿Tienen aderezos se encuentran en una conservadora con hielo?",
+          "respuestas": ["SI", "NO", "NO TIENEN ADEREZOS"],
+          "observacion": null,
+          "negative": "Los alimentos deben ser transportados y conservados hasta su venta en las condiciones adecuadas para evitar que se contaminen y causen enfermedades.\n\nLas carnes crudas, aderezos y salchichas deben ser transportadas embolsadas en conservadoras con hielo.\n\nLas verduras deben lavarse y desinfectarse antes de ir al lugar de venta. En lo posible, cortarlas y llevarlas en tuppers adecuados y usar pinzas.\n\nLos productos preparados con cremas, fiambres y/o aderezos deben almacenarse en conservadoras hasta ser entregados al consumidor."
+        },
+        {
+          "pregunta": "8. Si trabajan con huevo, ¿se encuentran lejos de las planchas de calor?",
+          "respuestas": ["SI", "NO", "NO TRABAJAN CON HUEVOS"],
+          "observacion": null,
+          "negative": "Los huevos pueden contener naturalmente en su cáscara una bacteria llamada salmonella, la cual puede provocar enfermedades en el consumidor si los productos no se manipulan adecuadamente. Esta bacteria se multiplica más rápido en lugares donde se concentra el calor."
+        },
+        {
+          "pregunta": "9. Trabajan con utensilios y pinzas adecuadas",
+          "respuestas": ["SI", "NO"],
+          "observacion": null,
+          "negative": "Cuando manipulamos alimentos en un espacio público donde aumentan los riesgos de contaminación, debemos tener mayor cuidado. Por ejemplo, es recomendable utilizar pinzas, vitrinas y bandejas con tapas para evitar que los alimentos tengan mucho contacto con las manos."
+        },
+        {
+          "pregunta": "10. Hay una persona para cobrar y otra que elabora los alimentos",
+          "respuestas": ["SI", "NO"],
+          "observacion": "Otras observaciones:",
+          "negative": "Si se manipula alimentos, no se puede cobrar. Si se trabaja de manera ambulante, debe haber una persona encargada de cobrar y otra que prepare los alimentos. Esto se debe a que el dinero está muy contaminado y puede causar una contaminación cruzada al alimento debido a malas prácticas del manipulador.\n\n Si un manipulador toca dinero o elementos personales (por ejemplo, teléfono), debe lavarse inmediatamente las manos con agua potable y jabón.\n\n Además, se sugiere el uso de alcohol en gel o diluido al 70 %."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Inspección de Habilitación",
+      "image": "https://res.cloudinary.com/dhu3uii7o/image/upload/v1705428020/RUBROS/INSPECCION%20DE%20HABILITACION.jpg",
+      "statement": "Detallar las condiciones del nuevo establecimiento a habilitar teniendo en cuenta las siguientes observaciones:",
+      "form": [
+        {
+          "pregunta": "1. Controlar las condiciones edilicias (si las paredes están pintadas con pintura lavable, el sistema de ventilación, las condiciones de los baños)",
+          "respuestas": null,
+          "observacion": null
+        },
+        {
+          "pregunta": "2. Controlar el equipamiento (observando que sean aptos para manipular alimentos; ej.: las mesadas de acero inoxidable).",
+          "respuestas": null,
+          "observacion": null
+        },
+        {
+          "pregunta": "3. Observar que el mobiliario y equipamiento sea el mínimo e indispensable para realizar el trabajo (ej.: que tengan heladeras si necesitan conservar alimentos, que tengan bachas para el lavado de manos, que tengan las mesadas necesarias para manipular alimentos, etc.).",
+          "respuestas": null,
+          "observacion": null
+        },
+        {
+          "pregunta": "4. Solicitar carnet de manipulación de alimentos",
+          "observacion": "5. Observaciones:"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Vehículos transportadores de alimentos",
+      "image": "https://res.cloudinary.com/dhu3uii7o/image/upload/v1705428189/RUBROS/VEHICULOS%20TRANSPORTADORES%20DE%20ALIMENTOS.jpg",
+      "statement": "Detallar las condiciones del nuevo establecimiento a habilitar teniendo en cuenta las siguientes observaciones:",
+      "form": [
+        {
+          "pregunta": "1. ¿Todos manipuladores poseen carnet de manipulación de alimentos ?",
+          "respuestas": ["SI", "NO"],
+          "observacion": "Cantidad de identificaciones vigentes:",
+          "negative": "Contar con el carnet nacional de manipulación de alimentos es obligatorio para toda persona que tenga contacto directo o indirecto con los alimentos durante toda la cadena de producción hasta que llega al consumidor final (de la granja – el mar a la mesa). Realizar la capacitación en manipulación de alimentos minimiza el riesgo de que aparezcan enfermedades transmitidas por los alimentos. Alimentos = Salud."
+        },
+        {
+          "pregunta": "2. Transportan alimentos de manera adecuada",
+          "respuestas": ["SI", "NO"],
+          "observacion": null,
+          "negative": "Los vehículos que transportan alimentos sin cámara de frío solo podrán transportar productos no perecederos (harinas, golosinas, fideos, arroz), siempre que lo hagan en las condiciones adecuadas.\n\n El vehículo debe estar limpio y desinfectado en la zona de transporte de las cajas, bolsas, etc.\n\n No se puede transportar lácteos (por ejemplo, sachet de leche, yogures), fiambres, helados, hamburguesas, salchichas, etc., que requieran refrigeración. No se puede cortar la cadena de frío de los alimentos.\n\n Además, no se pueden transportar productos químicos, desinfectantes, maquinaria, herramientas u otros productos que no sean alimentos y estén en contacto directo con los productos durante el viaje (por ejemplo, no se pueden transportar frutas y baterías en el mismo vehículo)."
+        },
+        {
+          "pregunta": "3. Poseen las boletas y registros de los productos transportados",
+          "respuestas": ["SI", "NO"],
+          "observacion": null,
+          "negative": "Todos los alimentos que se elaboran y expenden en nuestro país deben estar registrados para saber su procedencia, y que es un establecimiento habilitado para elaborar ese/esos tipos de alimentos.\n\n Un producto registrado posee un N° de RNE y un N° de RNPA y fechas de vencimientos.\n\n Es importante que se asegure que los productos que expenda estén registrados para minimizar los riesgos de enfermedades."
+        },
+        {
+          "pregunta": "4. Son transportados con productos químicos y/o de limpieza",
+          "respuestas": ["SI", "NO"],
+          "observacion": "Observaciones:",
+          "negative": "Es importante no transportar productos químicos, desinfectantes, maquinaria, herramientas u otros elementos que no sean alimentos y que puedan entrar en contacto directo con los productos durante el viaje. Por ejemplo, no se debe transportar frutas junto con baterías en un mismo vehículo, para evitar posibles contaminaciones."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Vehículos transportadores de alimentos con cámaras de frío",
+      "image": "https://res.cloudinary.com/dhu3uii7o/image/upload/v1705428475/RUBROS/VEHICULOS%20CAMARA%20DE%20FRIO.jpg",
+      "statement": "Detallar las condiciones del nuevo establecimiento a habilitar teniendo en cuenta las siguientes observaciones:",
+      "form": [
+        {
+          "pregunta": "1. ¿Todos manipuladores poseen carnet de manipulación de alimentos ?",
+          "respuestas": ["SI", "NO"],
+          "observacion": "Cantidad de identificaciones vigentes:",
+          "negative": "Contar con el carnet nacional de manipulación de alimentos es obligatorio para toda persona que tenga contacto directo o indirecto con los alimentos durante toda la cadena de producción hasta que llega al consumidor final (de la granja – el mar a la mesa). Realizar la capacitación en manipulación de alimentos minimiza el riesgo de que aparezcan enfermedades transmitidas por los alimentos. Alimentos = Salud."
+        },
+        {
+          "pregunta": "2. ¿Transportan alimentos de manera adecuada?",
+          "respuestas": ["SI", "NO"],
+          "observacion": null,
+          "negative": "El vehículo utilizado para transportar productos que requieren refrigeración o congelación debe estar aprobado por SENASA y cumplir con los requisitos establecidos para el transporte de dichos productos.\n\n Es estrictamente prohibido interrumpir la cadena de frío de estos productos durante todo el trayecto."
+        },
+        {
+          "pregunta": "3. Registrar temperatura de la cámara de frío",
+          "respuestas": null,
+          "observacion": "Ingrese la temperatura en ºC:",
+          "negative": "Si transporta carne deberá trasladar colgadas las reses.\n\nSi transporta pollo, pescados o productos de mar debe trasladarlos a la temperatura adecuada.\n\nSi transporta fiambre, helados, hamburguesas, salchichas debe trasladarlos a la temperatura adecuada."
+        },
+        {
+          "pregunta": "4. Poseen las boletas y registros de los productos transportados",
+          "respuestas": ["SI", "NO"],
+          "observacion": null,
+          "negative": "Todos los alimentos que se elaboran y expenden en nuestro país deben estar registrados para saber su procedencia, y que es un establecimiento habilitado para elaborar ese/esos tipos de alimentos. \n\nUn producto registrado posee un N° de RNE y un N° de RNPA y fechas de vencimientos, los productos cárnicos poseen sello de SENASA.\n\nEs importante que se asegure que los productos que expenda estén registrados para minimizar los riesgos de enfermedades."
+        },
+        {
+          "pregunta": "5. Los transportadores de carne poseen el uniforme correcto",
+          "respuestas": ["SI", "NO"],
+          "observacion": "Otras observaciones:",
+          "negative": "Si se transporta carnes los manipuladores deberán contar con el uniforme correcto: chaqueta y pantalón largo blanco, cofia y botas de goma (se usan para subirse a la cámara y descargar)."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Fábrica de alimentos",
+      "image": "https://res.cloudinary.com/dhu3uii7o/image/upload/v1705428546/RUBROS/FABRICA%20DE%20ALIMENTOS.jpg",
+      "statement": "Solicitar los checklist según el tipo de alimento o producto que elaboren.",
+      "form": [
+        {
+          "pregunta": "Este control se llevó a cabo conforme a lo establecido por art. 14 de la ley 18.284 y por lo estipulado en el Código Alimentario Argentino.",
+          "respuestas": null,
+          "observacion": null
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Supermercado",
+      "image": "https://res.cloudinary.com/dhu3uii7o/image/upload/v1706839579/RUBROS/SUPERMERCADO.jpg",
+      "statement": null,
+      "form": null
+    }
+  ]
 }

@@ -2,7 +2,6 @@ const { User } = require("../db");
 const { SECRET_KEY } = process.env;
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
-const { Op } = require("sequelize");
 
 const validateUser = async (username, password) => {
   try {
@@ -16,8 +15,10 @@ const validateUser = async (username, password) => {
 
     if (comparePasswords) {
       delete user.dataValues.password;
-      const token = jwt.sign(user.dataValues, SECRET_KEY, { expiresIn: "2h" });
-      return { token, user: user.dataValues };
+      const expiresIn = 8 * 60 * 60; // 8 horas en segundos
+      const token = jwt.sign(user.dataValues, SECRET_KEY, { expiresIn });
+      const expirationTime = new Date(Date.now() + expiresIn * 1000); // Fecha de expiración
+      return { token, expirationTime, user: user.dataValues };
     } else {
       throw new Error("Invalid username/password, please try again.");
     }
@@ -29,7 +30,9 @@ const validateUser = async (username, password) => {
 
 const getUsers = async () => {
   try {
-    const users = await User.findAll();
+    const users = await User.findAll({
+      attributes: { exclude: ["password", "profilePicture"] },
+    });
     return users;
   } catch (error) {
     console.error(error.message);
@@ -52,52 +55,58 @@ const getUserProfile = async (id) => {
   }
 };
 
-const postUser = async (user) => {
-  try {
-    const {
-      username,
-      email,
-      password,
-      rol,
-      name,
-      lastname,
-      cellphone,
-      profilePicture,
-    } = user;
+const postUserBasic = async ({ email, rol }) => {
+  const existingUser = await User.findOne({ where: { email } });
+  if (existingUser) {
+    throw new Error("El correo electrónico ya está en uso.");
+  }
 
-    const existingUser = await User.findOne({
-      where: { [Op.or]: [{ username }, { email }] },
+  const newUser = await User.create({
+    email,
+    username: null,
+    password: null,
+    rol: rol,
+    name: null,
+    lastname: null,
+    cellphone: null,
+    profilePicture: null,
+  });
+
+  return newUser;
+};
+
+const putUserRegisterInformation = async (userInfo) => {
+  try {
+    const user = await User.findOne({
+      where: {
+        email: userInfo.email, // Aquí especifica el correo electrónico que deseas buscar
+      },
     });
 
-    if (existingUser) {
-      if (existingUser.username === username) {
-        throw new Error("El nombre de usuario ya está en uso.");
-      } else if (existingUser.email === email) {
-        throw new Error("El correo electrónico ya está en uso.");
-      }
+    if (!user) {
+      throw new Error("User not found.");
     }
 
-    const passwordHash = await bcrypt.hash(password, 10);
+    if (userInfo.password) {
+      const passwordHash = await bcrypt.hash(userInfo.password, 10);
+      userInfo.password = passwordHash;
+    }
 
-    const newUser = await User.create({
-      username,
-      email,
-      rol,
-      password: passwordHash,
-      name,
-      lastname,
-      cellphone,
-      profilePicture,
+    await user.update(userInfo);
+
+    const updatedUser = await User.findByPk(user.id, {
+      attributes: { exclude: ["password"] },
     });
 
-    delete newUser.dataValues.password;
+    delete updatedUser.dataValues.password;
 
-    const token = jwt.sign(newUser.dataValues, SECRET_KEY, { expiresIn: "2h" });
-
-    return { token, user: newUser.dataValues };
+    const expiresIn = 8 * 60 * 60; // 8 horas en segundos
+    const token = jwt.sign(updatedUser.dataValues, SECRET_KEY, { expiresIn });
+    const expirationTime = new Date(Date.now() + expiresIn * 1000); // Fecha de expiración
+    return { token, expirationTime, user: updatedUser.dataValues };
   } catch (error) {
     console.error(error.message);
-    throw new Error(error.message);
+    throw error;
   }
 };
 
@@ -146,7 +155,8 @@ module.exports = {
   validateUser,
   getUsers,
   getUserProfile,
-  postUser,
   putUserProfile,
   deleteUsers,
+  postUserBasic,
+  putUserRegisterInformation,
 };

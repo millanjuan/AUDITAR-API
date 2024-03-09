@@ -2,9 +2,10 @@ const {
   validateUser,
   getUsers,
   getUserProfile,
-  postUser,
   putUserProfile,
   deleteUsers,
+  postUserBasic,
+  putUserRegisterInformation,
 } = require("../controllers/userControllers");
 
 const loginHandler = async (req, res) => {
@@ -13,7 +14,13 @@ const loginHandler = async (req, res) => {
   try {
     const login = await validateUser(username, password);
     if (login.token) {
-      res.status(200).json({ token: login.token, user: login.user });
+      res
+        .status(200)
+        .json({
+          token: login.token,
+          user: login.user,
+          expirationTime: login.expirationTime,
+        });
     } else {
       res.status(401).json({ message: "Invalid username/password." });
     }
@@ -23,26 +30,22 @@ const loginHandler = async (req, res) => {
   }
 };
 
-const postUserHandler = async (req, res) => {
+const postUserBasicHandler = async (req, res) => {
   const userData = req.body;
   try {
-    const createdUser = await postUser(userData);
-    if (createdUser.token) {
-      res
-        .status(200)
-        .json({ token: createdUser.token, user: createdUser.user });
+    const createdBasic = await postUserBasic(userData);
+    if (createdBasic) {
+      return res.status(201).json(createdBasic);
     } else {
-      res.status(401).json({ message: "ERROR." });
+      return res
+        .status(400)
+        .json({ error: "El correo electrónico ya está en uso." });
     }
   } catch (error) {
-    console.error(error);
-    if (error.message.includes("nombre de usuario")) {
-      res.status(400).json({ error: error.message });
-    } else if (error.message.includes("correo electrónico")) {
-      res.status(400).json({ error: error.message });
-    } else {
-      res.status(500).json({ error: "Error interno del servidor." });
-    }
+    console.error("Error al crear usuario básico:", error);
+    return res
+      .status(500)
+      .json({ error: "Hubo un problema al crear el usuario." });
   }
 };
 
@@ -58,13 +61,26 @@ const getUserProfileHandler = async (req, res) => {
   }
 };
 
-const getUsersHandler = async () => {
+const getUsersHandler = async (req, res) => {
   try {
     const users = await getUsers();
     res.status(200).json(users);
   } catch (error) {
     console.error(error);
     res.status(500).json({ error: "Internal Server Error" });
+  }
+};
+
+const putUserRegisterHandler = async (req, res) => {
+  const userInfo = req.body;
+  try {
+    const updatedUser = await putUserRegisterInformation(userInfo);
+    res.status(200).json(updatedUser);
+  } catch (error) {
+    console.error(error);
+    res
+      .status(500)
+      .json({ error: "Por favor contactese con un administrador." });
   }
 };
 
@@ -97,7 +113,8 @@ module.exports = {
   loginHandler,
   getUsersHandler,
   getUserProfileHandler,
-  postUserHandler,
   putUserProfileHandler,
   deleteUsersHandler,
+  postUserBasicHandler,
+  putUserRegisterHandler,
 };
