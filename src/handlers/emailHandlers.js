@@ -15,7 +15,7 @@ const welcomeEmailHandler = async (req, res) => {
     console.error(error);
     res
       .status(500)
-      .send({ error: "Error al enviar el correo electrónico de bienvenida" });
+      .send({ error: "Error al enviar el correo electrónico de bienvenida." });
   }
 };
 
