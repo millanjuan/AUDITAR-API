@@ -41,7 +41,11 @@ const { Category, Inspection, User } = sequelize.models;
 
 // Relación entre User e Inspection
 User.hasMany(Inspection);
-Inspection.belongsTo(User, { foreignKey: "userId" });
+Inspection.belongsTo(User);
+
+//Relacion entre Inspection y Category
+Category.hasMany(Inspection);
+Inspection.belongsTo(Category);
 
 module.exports = {
   ...sequelize.models, // para poder importar los modelos así: const { Product, User } = require('./db.js');

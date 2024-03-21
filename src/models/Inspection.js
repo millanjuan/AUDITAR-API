@@ -14,7 +14,7 @@ module.exports = (sequelize) => {
     },
 
     autorizationNumber: {
-      type: DataTypes.INTEGER,
+      type: DataTypes.STRING,
       allowNull: false,
     },
 
@@ -75,8 +75,12 @@ module.exports = (sequelize) => {
     },
 
     days: {
-      type: DataTypes.INTEGER,
+      type: DataTypes.STRING,
       allowNull: true,
+    },
+    categoryId: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
     },
   });
 };

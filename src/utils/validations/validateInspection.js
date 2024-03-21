@@ -11,9 +11,7 @@ const validateInspection = (req, res, next) => {
     email,
     form,
     inspectorSign1,
-    inspectorSign2,
     ownerSign,
-    days,
   } = req.body;
   if (!companyName)
     return res.status(400).json({ error: "Missing companyName" });
@@ -32,10 +30,8 @@ const validateInspection = (req, res, next) => {
   if (!form) return res.status(400).json({ error: "Missing form" });
   if (!inspectorSign1)
     return res.status(400).json({ error: "Missing inspectorSign1" });
-  if (!inspectorSign2)
-    return res.status(400).json({ error: "Missing inspectorSign2" });
   if (!ownerSign) return res.status(400).json({ error: "Missing ownerSign" });
-  if (!days) return res.status(400).json({ error: "Missing days" });
+  next();
 };
 
 module.exports = { validateInspection };

@@ -20,10 +20,20 @@
 const server = require("./src/app.js");
 const { conn } = require("./src/db.js");
 const { PORT } = process.env;
+const initializeData = require("./src/utils/initializeData.js");
 
-// Syncing all the models at once.
-conn.sync({ force: false }).then(() => {
-  server.listen(PORT, () => {
-    console.log("%s listening at", PORT);
+conn
+  .sync({ force: false })
+  .then(() => {
+    console.log("Modelos sincronizados correctamente.");
+    server.listen(PORT, () => {
+      console.log("%s listening at", PORT);
+    });
+    initializeData();
+  })
+  .catch((error) => {
+    console.error(
+      "Error al sincronizar los modelos con la base de datos:",
+      error
+    );
   });
-});

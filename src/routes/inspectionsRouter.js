@@ -6,7 +6,6 @@ const {
   postInspectionHandler,
 } = require("../handlers/inspectionHandlers");
 const verifyToken = require("../utils/verifications/verifyToken");
-const verifyAdmin = require("../utils/verifications/verifyAdmin");
 const {
   validateInspection,
 } = require("../utils/validations/validateInspection");

@@ -6,9 +6,9 @@ const {
 
 const getUserInspectionsHandler = async (req, res) => {
   const id = req.user.id;
-
+  const query = req.query;
   try {
-    const inspections = await getUserInspections(id);
+    const inspections = await getUserInspections(id, query);
     res.status(200).json(inspections);
   } catch (error) {
     console.error(error);
@@ -33,9 +33,10 @@ const getInspectionByIdHandler = async (req, res) => {
 };
 
 const postInspectionHandler = async (req, res) => {
-  const inspectionData = req.body;
+  const formData = req.body;
+  const userId = req.user.id;
   try {
-    const created = await postInspection(inspectionData);
+    const created = await postInspection(formData, userId);
     res.status(201).json(created);
   } catch (error) {
     console.error(error);

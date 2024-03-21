@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 20px;
+      }
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+      h1 {
+        color: #22aeff;
+        margin-bottom: 20px;
+      }
+      p {
+        color: #333;
+        line-height: 1.6;
+        margin-bottom: 15px;
+      }
+      .contact-info {
+        margin-top: 30px;
+      }
+      .contact-info p {
+        margin-bottom: 5px;
+      }
+      .contact-info span {
+        font-weight: bold;
+        color: #005da5;
+      }
+      .saludo {
+        margin-top: 30px;
+        font-size: 16px;
+        font-style: italic;
+        color: #0288d1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Informe de Inspección</h1>
+      <p>Sr/a propietario/a del establecimiento comercial,</p>
+      <p>
+        Se le informa que en el día de la fecha recibió una inspección por parte
+        de la Dirección de Bromatología del Municipio; quien la realiza para
+        cuidar la salud pública.
+      </p>
+      <p>
+        Le solicitamos que lea atentamente las recomendaciones observadas en el
+        siguiente informe el cual fue minuciosamente preparado por profesionales
+        de la seguridad alimentaria en base a la inspección realizada a su local
+        comercial.
+      </p>
+      <p>
+        Si cumple con las recomendaciones allí observadas podrá brindar sus
+        productos de manera segura, inocua y de calidad a sus clientes y
+        consumidores, contribuyendo con la salud pública.
+      </p>
+
+      <div class="contact-info">
+        <p>
+          Ante cualquier duda, consulta y/o sugerencia no dude en contactarnos a
+          través de nuestros medios de comunicación directa:
+        </p>
+        <p><span>Celular:</span> <%= cellphone %></p>
+        <p><span>Correo:</span> <%= clientEmail %></p>
+      </div>
+
+      <p class="saludo">Nos encontramos a su disposición.</p>
+      <p class="saludo">AUDITAR</p>
+    </div>
+  </body>
+</html>
